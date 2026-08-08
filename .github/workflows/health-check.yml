@@ -1,0 +1,42 @@
+name: 源健康巡检
+
+on:
+  schedule:
+    # 每天 01:00 CST (UTC+8) = 17:00 UTC
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'sources.json'
+      - 'check_sources.js'
+
+permissions:
+  contents: write
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 运行巡检
+        run: node check_sources.js
+
+      - name: 提交结果(有变更才提交)
+        run: |
+          git config user.name "kvideo-bot"
+          git config user.email "kvideo-bot@users.noreply.github.com"
+          git add sources.json report.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: 自动巡检 $(date -u +%F) - $(grep -oP '可用：\K\d+' report.md | head -1) 个源可用"
+            git push
+            echo "✅ 已提交巡检结果"
+          else
+            echo "ℹ️ 无变更"
+          fi
