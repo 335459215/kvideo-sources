@@ -65,7 +65,7 @@
     "baseUrl": "https://www.ckzy1.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "adult",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -235,7 +235,7 @@
     "baseUrl": "https://aosikazy.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "adult",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -395,7 +395,7 @@
     "baseUrl": "https://slapibf.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "adult",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -425,7 +425,7 @@
     "baseUrl": "https://www.xrbsp.com/api/json.php",
     "searchPath": "",
     "detailPath": "",
-    "group": "adult",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -495,7 +495,7 @@
     "baseUrl": "https://yutuzy10.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "adult",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -845,7 +845,7 @@
     "baseUrl": "https://www.gdlsp.com/api/json.php",
     "searchPath": "",
     "detailPath": "",
-    "group": "adult",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -935,7 +935,7 @@
     "baseUrl": "https://hsckzy.vip/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "adult",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
