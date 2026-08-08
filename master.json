@@ -8,22 +8,6 @@
     "group": "normal"
   },
   {
-    "id": "155api-com",
-    "name": "155",
-    "baseUrl": "https://155api.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "155zy2-com",
-    "name": "155-资源",
-    "baseUrl": "https://155api.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "sanliuling",
     "name": "360资源",
     "baseUrl": "https://360zy.com/api.php/provide/vod",
@@ -51,22 +35,6 @@
     "id": "ikunzy-com",
     "name": "iKun资源",
     "baseUrl": "https://ikunzyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "jkunzyapi-com",
-    "name": "jkun资源",
-    "baseUrl": "https://jkunzyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "souavzyw-com",
-    "name": "souavZY",
-    "baseUrl": "https://api.souavzyw.net/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -128,14 +96,6 @@
     "group": "normal"
   },
   {
-    "id": "apidanaizi-com",
-    "name": "大奶子",
-    "baseUrl": "https://apidanaizi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "tianyazy",
     "name": "天涯海角",
     "baseUrl": "https://tyyszyapi.com/api.php/provide/vod",
@@ -152,41 +112,9 @@
     "group": "normal"
   },
   {
-    "id": "aosikazy-com",
-    "name": "奥斯卡",
-    "baseUrl": "https://aosikazy.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "naixxzy-com",
-    "name": "奶香",
-    "baseUrl": "https://Naixxzy.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "Naixxzy-com",
-    "name": "奶香资源",
-    "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "www-ryzyw-com",
     "name": "如意资源",
     "baseUrl": "https://cj.rycjapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "xiaojizy-live",
-    "name": "小鸡资源",
-    "baseUrl": "https://api.xiaojizy.live/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -240,14 +168,6 @@
     "group": "normal"
   },
   {
-    "id": "xingba111-com",
-    "name": "杏吧资源",
-    "baseUrl": "https://xingba222.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "jszyapi-com",
     "name": "极速资源",
     "baseUrl": "https://jszyapi.com/api.php/provide/vod",
@@ -259,22 +179,6 @@
     "id": "thzy8-me",
     "name": "桃花资源",
     "baseUrl": "https://thzy1.me/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "slapibf-com",
-    "name": "森林",
-    "baseUrl": "https://slapibf.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "beiyong-slapibf-com",
-    "name": "森林资源",
-    "baseUrl": "https://beiyong.slapibf.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -376,33 +280,9 @@
     "group": "normal"
   },
   {
-    "id": "fhapi9-com",
-    "name": "番号资源",
-    "baseUrl": "http://fhapi9.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "www-kxgav-com",
-    "name": "白嫖资源",
-    "baseUrl": "https://www.kxgav.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "baiduyun",
     "name": "百度云资源",
     "baseUrl": "https://api.apibdzy.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "www-jingpinx-com",
-    "name": "精品资源",
-    "baseUrl": "https://www.jingpinx.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -435,38 +315,6 @@
     "id": "suoni",
     "name": "索尼资源",
     "baseUrl": "https://suoniapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "www-xxibaozyw-com",
-    "name": "细胞资源",
-    "baseUrl": "https://www.xxibaozyw.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "www-msnii-com",
-    "name": "美少女",
-    "baseUrl": "https://www.msnii.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "apilsbzy1-com",
-    "name": "老色逼",
-    "baseUrl": "https://apilsbzy1.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "apilsbzy1-com-152",
-    "name": "老色逼资源站",
-    "baseUrl": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -648,65 +496,9 @@
     "group": "normal"
   },
   {
-    "id": "shayuapi-com",
-    "name": "鲨鱼资源",
-    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "jiangyu",
     "name": "鲸鱼资源",
     "baseUrl": "https://jyzyapi.com/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "91md-me",
-    "name": "麻豆视频",
-    "baseUrl": "https://91md.me/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "www-pgxdy-com",
-    "name": "黄AVZY",
-    "baseUrl": "https://www.pgxdy.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "hsckzy-xyz",
-    "name": "黄色仓库",
-    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "heiliaozy-cc",
-    "name": "黑料资源",
-    "baseUrl": "https://www.heiliaozyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "lbapiby-com",
-    "name": "AIvin",
-    "baseUrl": "http://lbapiby.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "lbapi9-com",
-    "name": "乐播资源",
-    "baseUrl": "https://lbapi9.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -848,14 +640,6 @@
     "group": "normal"
   },
   {
-    "id": "api-maozyapi-com",
-    "name": "色猫资源",
-    "baseUrl": "https://api.maozyapi.com/inc/api.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "ggmmzy-com-9999",
     "name": "哥哥妹妹",
     "baseUrl": "http://www.ggmmzy.com:9999/inc/xml",
@@ -867,14 +651,6 @@
     "id": "dadiapi-com",
     "name": "大地",
     "baseUrl": "https://dadiapi.com/api.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "sewozyapi-com",
-    "name": "色窝资源",
-    "baseUrl": "https://sewozyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -904,49 +680,9 @@
     "group": "normal"
   },
   {
-    "id": "52zyapi-com",
-    "name": "52AVAV",
-    "baseUrl": "https://52zyapi.com/home/cjapi/asda/mc10/vod/xml",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "xjjzyapi-com",
-    "name": "小姐姐资源",
-    "baseUrl": "https://xjjzyapi.com/home/cjapi/askl/mc10/vod/xml",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "sdszyapi-com",
-    "name": "色屌丝",
-    "baseUrl": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "dmmapi-com",
-    "name": "大MM资源",
-    "baseUrl": "https://www.dmmapi.com/home/cjapi/asd2c7/mc10/vod/xml",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "mgzyz1-com",
     "name": "芒果",
     "baseUrl": "https://mgzyz1.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "caiji-semaozy-net",
-    "name": "色猫",
-    "baseUrl": "https://caiji.semaozy.net/inc/apijson_vod.php",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -960,73 +696,9 @@
     "group": "normal"
   },
   {
-    "id": "msnii-com",
-    "name": "美少女",
-    "baseUrl": "https://www.msnii.com/api/xml.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "api-yrzyapi-com",
-    "name": "伊人",
-    "baseUrl": "https://api.yrzyapi.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "apihjzy-com",
-    "name": "花椒",
-    "baseUrl": "https://apihjzy.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "caoliuzy-com",
-    "name": "草榴",
-    "baseUrl": "https://www.caoliuzy.com/api.php/provide/vod/at/json",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "xrbsp-com",
-    "name": "淫水机",
-    "baseUrl": "https://www.xrbsp.com/api/xml.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "jgczyapi-com",
     "name": "精工厂资源",
     "baseUrl": "https://jgczyapi.com/home/cjapi/kld2/mc10/vod/xml",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "pgxdy-com",
-    "name": "黄AV",
-    "baseUrl": "https://www.pgxdy.com/api/xml.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "gdlsp-com",
-    "name": "香奶儿",
-    "baseUrl": "https://www.gdlsp.com/api/xml.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "kxgav-com",
-    "name": "白嫖",
-    "baseUrl": "https://www.kxgav.com/api/xml.php",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -1056,49 +728,9 @@
     "group": "normal"
   },
   {
-    "id": "siwazyw-cc",
-    "name": "丝袜",
-    "baseUrl": "https://www.siwazyw.cc/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "caiji-caomeiapi-com",
     "name": "草莓",
     "baseUrl": "https://caiji.caomeiapi.com/inc/api.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "99zy-pw",
-    "name": "久久",
-    "baseUrl": "http://99zy.pw/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "afasu-com",
-    "name": "小湿妹",
-    "baseUrl": "https://www.afasu.com/api/xml.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "api-xiuseapi-com",
-    "name": "秀色",
-    "baseUrl": "https://api.xiuseapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "cj-apihjzy-com",
-    "name": "花椒",
-    "baseUrl": "https://cj.apihjzy.com/inc/api.php",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -1112,22 +744,6 @@
     "group": "normal"
   },
   {
-    "id": "legallet-org",
-    "name": "免費AV線上看",
-    "baseUrl": "https://legallet.org/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "api-seyavod-com",
-    "name": "色鸭资源",
-    "baseUrl": "https://api.seyavod.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "shayuapi-com-107",
     "name": "shayu",
     "baseUrl": "https://shayuapi.com/api.php/Seacms/vod",
@@ -1136,49 +752,9 @@
     "group": "normal"
   },
   {
-    "id": "bttcj-com",
-    "name": "天堂",
-    "baseUrl": "http://bttcj.com/inc/sapi.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "tmav-art",
-    "name": "天美AV",
-    "baseUrl": "https://tmav.art/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "xxhd-online",
-    "name": "羞涩高清",
-    "baseUrl": "https://xxhd.online//api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "qlzy-tv",
-    "name": "青楼资源",
-    "baseUrl": "https://qlzy.tv/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "jizhiapi-com",
     "name": "极致资源",
     "baseUrl": "https://jizhiapi.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "api-sexnguon-com",
-    "name": "色南国资源",
-    "baseUrl": "https://api.sexnguon.com/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -1208,33 +784,9 @@
     "group": "normal"
   },
   {
-    "id": "hszy-vip",
-    "name": "黄色资源",
-    "baseUrl": "http://hszy.vip/api.php/provide/vod/?ac=detail",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "to-to-long-com",
     "name": "橘猫资源",
     "baseUrl": "https://to.to-long.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "api-huasezy-xyz",
-    "name": "花色资源",
-    "baseUrl": "https://api.huasezy.xyz/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "secj8-com",
-    "name": "色色吧",
-    "baseUrl": "http://secj8.com/inc/sapi.php?ac=videolist",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -1256,25 +808,9 @@
     "group": "normal"
   },
   {
-    "id": "caoliuzyw-com",
-    "name": "草榴资源",
-    "baseUrl": "https://www.caoliuzyw.com/api.php/provide/vod/at/json",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "putaozy19-com",
     "name": "葡萄资源",
     "baseUrl": "https://putaozy19.com/inc/api.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "secj8-com-172",
-    "name": "色色资源",
-    "baseUrl": "http://secj8.com/inc/sapi.php",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -1288,25 +824,9 @@
     "group": "normal"
   },
   {
-    "id": "zmcj88-com",
-    "name": "泡芙资源",
-    "baseUrl": "http://zmcj88.com/api?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "qqcm-sbs",
     "name": "QQ传媒",
     "baseUrl": "https://qqcm.sbs/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "api-seyavod-com-173",
-    "name": "色鸭资源",
-    "baseUrl": "https://api.seyavod.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -1320,14 +840,6 @@
     "group": "normal"
   },
   {
-    "id": "madoucun-com",
-    "name": "森林资源",
-    "baseUrl": "https://madoucun.com//api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "gc-zhuijuba-vip",
     "name": "极速官采",
     "baseUrl": "http://gc.zhuijuba.vip/api.php/provide/vod",
@@ -1336,33 +848,17 @@
     "group": "normal"
   },
   {
-    "id": "caiji25-com",
-    "name": "咪咪资源",
-    "baseUrl": "http://www.caiji25.com/home/cjapi/p0as/mc10/vod/json",
+    "id": "kuaichezy-org",
+    "name": "快车资源",
+    "baseUrl": "https://caiji.kuaichezy.org/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
   },
   {
-    "id": "apittzy-com",
-    "name": "探探资源",
-    "baseUrl": "https://apittzy.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "mgav1-cc",
-    "name": "芒果",
-    "baseUrl": "https://www.mgav1.cc/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "avre00-com",
-    "name": "黄瓜",
-    "baseUrl": "https://www.avre00.com/api.php/Prodao/vod/?ac=list",
+    "id": "mahua-1080zyku",
+    "name": "麻花资源",
+    "baseUrl": "https://api.1080zyku.com/inc/api_mac10.php",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
