@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'sources.json'
+      - 'master.json'
       - 'check_sources.js'
 
 permissions:
@@ -32,9 +32,9 @@ jobs:
         run: |
           git config user.name "kvideo-bot"
           git config user.email "kvideo-bot@users.noreply.github.com"
-          git add sources.json report.md
+          git add sources.json disabled.json report.md
           if ! git diff --cached --quiet; then
-            git commit -m "chore: 自动巡检 $(date -u +%F) - $(grep -oP '可用：\K\d+' report.md | head -1) 个源可用"
+            git commit -m "chore: 自动巡检 $(date -u +%F) - $(grep -oP '订阅生效：\K\d+' report.md | head -1) 个源生效"
             git push
             echo "✅ 已提交巡检结果"
           else

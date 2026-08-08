@@ -1,44 +1,42 @@
 #!/usr/bin/env node
 /**
  * KVideo 源健康巡检 - 零依赖 Node 实现
- * 每天自动: ac=list 存活测试每个源 -> 生效的写入 sources.json(订阅文件), 失效的移出到 disabled.json
+ *
+ * 架构:
+ *   master.json     总源池(只读, 巡检永不修改; 手动加源/手动禁用都改这里)
+ *   sources.json    订阅输出(巡检自动重写: 只放验证有效的源)  ← 用户订阅这个
+ *   disabled.json   失效归档(巡检自动重写: 无效源+原因, 仅供参考)
+ *   report.md       巡检报告(历史趋势)
+ *
  * 用法: node check_sources.js
  */
 const fs = require('fs');
 const path = require('path');
 
-const CONFIG_PATH = path.join(__dirname, 'sources.json');     // 生效订阅文件
-const ARCHIVE_PATH = path.join(__dirname, 'disabled.json');   // 失效归档(保留复测)
+const MASTER_PATH = path.join(__dirname, 'master.json');       // 只读源池
+const CONFIG_PATH = path.join(__dirname, 'sources.json');      // 订阅输出(有效)
+const ARCHIVE_PATH = path.join(__dirname, 'disabled.json');    // 归档输出(无效)
 const REPORT_PATH = path.join(__dirname, 'report.md');
 const TIMEOUT_MS = 10000;
 const MAX_RETRY = 2;
 const CONCURRENCY = 8;
 const MAX_HISTORY = 30;
 
-function loadJSON(p, fallback) {
-  if (!fs.existsSync(p)) return fallback;
-  try { return JSON.parse(fs.readFileSync(p, 'utf-8')); } catch { return fallback; }
+if (!fs.existsSync(MASTER_PATH)) {
+  console.error('❌ master.json 不存在');
+  process.exit(1);
 }
-
-// 生效 + 归档 合并(按 baseUrl 去重, 生效优先)
-const enabled = loadJSON(CONFIG_PATH, []);
-const archived = loadJSON(ARCHIVE_PATH, []);
-const byUrl = new Map();
-for (const s of enabled) byUrl.set(s.baseUrl, { ...s, _in: 'enabled' });
-for (const s of archived) {
-  if (!byUrl.has(s.baseUrl)) byUrl.set(s.baseUrl, { ...s, _in: 'archived' });
-}
-const all = [...byUrl.values()];
+const all = JSON.parse(fs.readFileSync(MASTER_PATH, 'utf-8'));
 const today = new Date().toISOString().slice(0, 10);
 
 // 历史(report.md 内嵌 JSON)
-let history = loadJSON(null, []);
+let history = [];
 if (fs.existsSync(REPORT_PATH)) {
   const old = fs.readFileSync(REPORT_PATH, 'utf-8');
   const m = old.match(/```json\n([\s\S]+?)\n```/);
   if (m) { try { history = JSON.parse(m[1]); } catch {} }
 }
-history.push({ date: today, results: all.map(r => ({ api: r.baseUrl, success: true })) });
+history.push({ date: today, results: [] });
 if (history.length > MAX_HISTORY) history = history.slice(-MAX_HISTORY);
 
 const delay = ms => new Promise(r => setTimeout(r, ms));
@@ -60,7 +58,7 @@ async function fetchWithTimeout(url) {
 }
 
 async function testSource(item) {
-  // 仅手动禁用的跳过复测
+  // master 中手动禁用的跳过复测
   if (item._comment === '手动禁用') {
     return { success: false, reason: '手动禁用', isManualDisabled: true };
   }
@@ -89,7 +87,7 @@ async function testSource(item) {
 }
 
 async function main() {
-  console.log(`⏳ 巡检开始: ac=list 存活测试, 共 ${all.length} 个源(生效${enabled.length}+归档${archived.length})`);
+  console.log(`⏳ 巡检开始: ac=list 存活测试, 源池 ${all.length} 个`);
   const results = [];
   const queue = all.map(item => () => testSource(item).then(res => ({ ...item, ...res })));
   const workers = Array(Math.min(CONCURRENCY, queue.length)).fill(0).map(async () => {
@@ -101,11 +99,9 @@ async function main() {
   });
   await Promise.all(workers);
 
-  // 更新历史(用真实结果覆盖占位)
-  const histResults = results.map(r => ({ api: r.baseUrl, success: r.success }));
-  history[history.length - 1].results = histResults;
+  history[history.length - 1].results = results.map(r => ({ api: r.baseUrl, success: r.success }));
 
-  // 统计分级
+  // 统计分级(基于历史)
   const stats = results.map(item => {
     const entries = history.map(h => h.results.find(x => x.api === item.baseUrl)).filter(Boolean);
     const okCount = entries.filter(h => h.success).length;
@@ -131,7 +127,7 @@ async function main() {
     return { ...item, statusIcon, rate: rate.toFixed(1) + '%', trend, priority };
   });
 
-  // 生效 -> sources.json; 失效 -> disabled.json
+  // 输出: 有效 -> sources.json(订阅); 无效 -> disabled.json(归档)
   const good = stats.filter(s => s.statusIcon === '✅')
     .map(s => ({ id: s.id, name: s.name, baseUrl: s.baseUrl, searchPath: s.searchPath || '', detailPath: s.detailPath || '', group: s.group || 'normal', enabled: true, priority: s.priority }))
     .sort((a, b) => a.priority - b.priority || a.name.localeCompare(b.name));
@@ -145,20 +141,20 @@ async function main() {
   // report.md
   const nowCST = new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('T', ' ').slice(0, 16) + ' CST';
   let md = `# 🎬 API 健康巡检报告\n\n`;
-  md += `> **更新时间：** ${nowCST} | **检测方式：** ac=list 存活测试 | **源总数：** ${all.length} | **生效：** ${good.length} | **失效归档：** ${bad.length}\n\n`;
+  md += `> **更新时间：** ${nowCST} | **检测方式：** ac=list 存活测试 | **源池：** ${all.length} | **订阅生效：** ${good.length} | **失效归档：** ${bad.length}\n\n`;
   md += `| 状态 | 资源名称 | 优先级 | 成功率 | 最近7天趋势 | 源站地址 | 备注 |\n`;
   md += `| :--- | :--- | :---: | :---: | :--- | :--- | :--- |\n`;
   stats.sort((a, b) => a.priority - b.priority).forEach(s => {
     const host = s.baseUrl.replace('https://', '').replace('http://', '').split('/')[0];
     md += `| ${s.statusIcon} | **${s.name}** | ${s.priority} | ${s.rate} | \`${s.trend}\` | [${host}](${s.baseUrl}) | ${s.statusIcon === '✅' ? '-' : s.reason} |\n`;
   });
-  md += `\n### 💡 状态说明\n- ✅ **生效(订阅中)** | ❌ **失效(已移出到 disabled.json)** | 🚨 **连断3天+** | 🚫 **手动禁用**\n`;
-  md += `- 失效源保留在 disabled.json 每天复测, 恢复后自动回到订阅。\n\n`;
+  md += `\n### 💡 状态说明\n- ✅ **生效(在订阅中)** | ❌ **失效(不在订阅中)** | 🚨 **连断3天+** | 🚫 **手动禁用**\n`;
+  md += `- 巡检只读 master.json(总源池), 自动把有效源写入 sources.json 订阅, 失效源留在池中不进入订阅, 恢复后自动回到订阅。\n\n`;
   md += `<details><summary>📜 历史统计数据 (JSON)</summary>\n\n\`\`\`json\n${JSON.stringify(history, null, 2)}\n\`\`\`\n</details>\n`;
   fs.writeFileSync(REPORT_PATH, md);
 
-  console.log(`✅ 完成: 生效 ${good.length} / 失效归档 ${bad.length}`);
-  console.log(`❌ 本次失联: ${stats.filter(s => s.statusIcon === '❌').length} | 🚨 连断: ${stats.filter(s => s.statusIcon === '🚨').length} | 🚫 手动: ${stats.filter(s => s.statusIcon === '🚫').length}`);
+  console.log(`✅ 完成: 订阅生效 ${good.length} / 失效归档 ${bad.length} (源池 ${all.length} 未动)`);
+  console.log(`❌ 失联: ${stats.filter(s => s.statusIcon === '❌').length} | 🚨 连断: ${stats.filter(s => s.statusIcon === '🚨').length} | 🚫 手动: ${stats.filter(s => s.statusIcon === '🚫').length}`);
 }
 
 main().catch(e => { console.error('巡检失败:', e); process.exit(1); });
