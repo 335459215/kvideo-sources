@@ -168,14 +168,6 @@
     "group": "normal"
   },
   {
-    "id": "thzy8-me",
-    "name": "桃花资源",
-    "baseUrl": "https://thzy1.me/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "yinghua",
     "name": "樱花资源",
     "baseUrl": "https://m3u8.apiyhzy.com/api.php/provide/vod",
@@ -187,22 +179,6 @@
     "id": "bubugao",
     "name": "步步高资源",
     "baseUrl": "https://api.yparse.com/api/json",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "didizy-com",
-    "name": "滴滴资源",
-    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "api-ddapi-cc",
-    "name": "滴滴资源",
-    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -315,14 +291,6 @@
     "id": "caiji-dbzy5-com",
     "name": "豆瓣资源",
     "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "doudouzy-com",
-    "name": "豆豆资源",
-    "baseUrl": "https://api.douapi.cc/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"

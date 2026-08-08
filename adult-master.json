@@ -606,5 +606,29 @@
     "searchPath": "",
     "detailPath": "",
     "group": "premium"
+  },
+  {
+    "id": "thzy8-me",
+    "name": "桃花资源",
+    "baseUrl": "https://thzy1.me/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "didizy-com",
+    "name": "滴滴资源",
+    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "doudouzy-com",
+    "name": "豆豆资源",
+    "baseUrl": "https://api.douapi.cc/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
   }
 ]
