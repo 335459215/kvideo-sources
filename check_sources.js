@@ -29,13 +29,14 @@ if (!fs.existsSync(MASTER_PATH)) {
 const all = JSON.parse(fs.readFileSync(MASTER_PATH, 'utf-8'));
 const today = new Date().toISOString().slice(0, 10);
 
-// 历史(report.md 内嵌 JSON)
+// 历史(report.md 内嵌 JSON): 按天去重, 同一天多次巡检只保留一条记录
 let history = [];
 if (fs.existsSync(REPORT_PATH)) {
   const old = fs.readFileSync(REPORT_PATH, 'utf-8');
   const m = old.match(/```json\n([\s\S]+?)\n```/);
   if (m) { try { history = JSON.parse(m[1]); } catch {} }
 }
+history = history.filter(h => h.date !== today);
 history.push({ date: today, results: [] });
 if (history.length > MAX_HISTORY) history = history.slice(-MAX_HISTORY);
 
