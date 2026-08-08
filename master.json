@@ -24,14 +24,6 @@
     "group": "normal"
   },
   {
-    "id": "ckzy-me",
-    "name": "CK-资源",
-    "baseUrl": "https://ckzy.me/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "ikunzy-com",
     "name": "iKun资源",
     "baseUrl": "https://ikunzyapi.com/api.php/provide/vod",
@@ -248,30 +240,6 @@
     "group": "normal"
   },
   {
-    "id": "apiyutu-com-120",
-    "name": "玉兔",
-    "baseUrl": "https://apiyutu.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "apiyutu-com",
-    "name": "玉兔资源",
-    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "yutuzy3-com",
-    "name": "玉兔资源",
-    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "dyttzyapi-com",
     "name": "电影天堂",
     "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
@@ -368,30 +336,6 @@
     "group": "normal"
   },
   {
-    "id": "apilj-com-118",
-    "name": "辣椒",
-    "baseUrl": "https://apilj.com/api.php/provide/vod/at/json",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "api-11bat-com",
-    "name": "辣椒2",
-    "baseUrl": "http://api.11bat.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "apilj-com",
-    "name": "辣椒资源",
-    "baseUrl": "https://apilj.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "www-subozy-com",
     "name": "速播资源",
     "baseUrl": "https://subocaiji.com/api.php/provide/vod",
@@ -459,14 +403,6 @@
     "id": "feifancj2",
     "name": "非凡采集HTTPS",
     "baseUrl": "https://cj.ffzyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "xiangjiaozyw-com",
-    "name": "香蕉资源",
-    "baseUrl": "https://www.xiangjiaozyw.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
@@ -680,14 +616,6 @@
     "group": "normal"
   },
   {
-    "id": "mgzyz1-com",
-    "name": "芒果",
-    "baseUrl": "https://mgzyz1.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
     "id": "kaiyunzy5-com",
     "name": "开云",
     "baseUrl": "https://kaiyunzy5.com/inc/apijson_vod.php",
@@ -771,14 +699,6 @@
     "id": "kaiyunzy1-com",
     "name": "开云资源",
     "baseUrl": "https://kaiyunzy1.com/inc/apijson_vod.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal"
-  },
-  {
-    "id": "api-yirenziyuan-com",
-    "name": "伊人资源",
-    "baseUrl": "https://api.yirenziyuan.com/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "normal"

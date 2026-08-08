@@ -534,5 +534,77 @@
     "searchPath": "",
     "detailPath": "",
     "group": "premium"
+  },
+  {
+    "id": "mgzyz1-com",
+    "name": "芒果",
+    "baseUrl": "https://mgzyz1.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "ckzy-me",
+    "name": "CK-资源",
+    "baseUrl": "https://ckzy.me/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "yutuzy3-com",
+    "name": "玉兔资源",
+    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "apiyutu-com",
+    "name": "玉兔资源",
+    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "xiangjiaozyw-com",
+    "name": "香蕉资源",
+    "baseUrl": "https://www.xiangjiaozyw.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "apilj-com",
+    "name": "辣椒资源",
+    "baseUrl": "https://apilj.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "apilj-com-118",
+    "name": "辣椒",
+    "baseUrl": "https://apilj.com/api.php/provide/vod/at/json",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "api-11bat-com",
+    "name": "辣椒2",
+    "baseUrl": "http://api.11bat.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "api-yirenziyuan-com",
+    "name": "伊人资源",
+    "baseUrl": "https://api.yirenziyuan.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
   }
 ]

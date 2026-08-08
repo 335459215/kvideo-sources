@@ -20,9 +20,9 @@
     "priority": 10
   },
   {
-    "id": "360zyzz-com",
+    "id": "sanliuling",
     "name": "360资源",
-    "baseUrl": "https://360zyzz.com/api.php/provide/vod",
+    "baseUrl": "https://360zy.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -30,9 +30,9 @@
     "priority": 10
   },
   {
-    "id": "sanliuling",
+    "id": "360zyzz-com",
     "name": "360资源",
-    "baseUrl": "https://360zy.com/api.php/provide/vod",
+    "baseUrl": "https://360zyzz.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -65,7 +65,7 @@
     "baseUrl": "https://ckzy.me/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "normal",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -460,19 +460,19 @@
     "priority": 10
   },
   {
-    "id": "apiyutu-com-120",
+    "id": "yutu",
     "name": "玉兔",
-    "baseUrl": "https://apiyutu.com/api.php/provide/vod/?ac=list",
+    "baseUrl": "https://yutuzy10.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "normal",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
   {
-    "id": "yutu",
-    "name": "玉兔",
-    "baseUrl": "https://yutuzy10.com/api.php/provide/vod",
+    "id": "yutuzy3-com",
+    "name": "玉兔资源",
+    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -485,17 +485,7 @@
     "baseUrl": "https://apiyutu.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "yutuzy3-com",
-    "name": "玉兔资源",
-    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -685,7 +675,7 @@
     "baseUrl": "https://apilj.com/api.php/provide/vod/at/json",
     "searchPath": "",
     "detailPath": "",
-    "group": "normal",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -695,7 +685,7 @@
     "baseUrl": "http://api.11bat.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "normal",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -705,7 +695,7 @@
     "baseUrl": "https://apilj.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "normal",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
@@ -770,9 +760,9 @@
     "priority": 10
   },
   {
-    "id": "ffzyapi-com",
+    "id": "feifan",
     "name": "非凡资源",
-    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
+    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -780,9 +770,9 @@
     "priority": 10
   },
   {
-    "id": "feifan",
+    "id": "ffzyapi-com",
     "name": "非凡资源",
-    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
+    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -815,7 +805,7 @@
     "baseUrl": "https://www.xiangjiaozyw.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "normal",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
