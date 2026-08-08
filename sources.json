@@ -430,9 +430,9 @@
     "priority": 10
   },
   {
-    "id": "api-ddapi-cc",
+    "id": "didizy-com",
     "name": "滴滴资源",
-    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
+    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -440,9 +440,9 @@
     "priority": 10
   },
   {
-    "id": "didizy-com",
+    "id": "api-ddapi-cc",
     "name": "滴滴资源",
-    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
+    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -810,9 +810,9 @@
     "priority": 10
   },
   {
-    "id": "ffzyapi-com",
+    "id": "feifan",
     "name": "非凡资源",
-    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
+    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -820,9 +820,9 @@
     "priority": 10
   },
   {
-    "id": "feifan",
+    "id": "ffzyapi-com",
     "name": "非凡资源",
-    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
+    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -930,22 +930,22 @@
     "priority": 10
   },
   {
-    "id": "hsck",
-    "name": "黄色仓库",
-    "baseUrl": "https://hsckzy.vip/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 10
-  },
-  {
     "id": "hsckzy-xyz",
     "name": "黄色仓库",
     "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "hsck",
+    "name": "黄色仓库",
+    "baseUrl": "https://hsckzy.vip/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
