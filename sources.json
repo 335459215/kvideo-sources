@@ -30,9 +30,9 @@
     "priority": 1
   },
   {
-    "id": "sanliuling",
+    "id": "360zyzz-com",
     "name": "360资源",
-    "baseUrl": "https://360zy.com/api.php/provide/vod",
+    "baseUrl": "https://360zyzz.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -40,9 +40,9 @@
     "priority": 1
   },
   {
-    "id": "360zyzz-com",
+    "id": "sanliuling",
     "name": "360资源",
-    "baseUrl": "https://360zyzz.com/api.php/provide/vod",
+    "baseUrl": "https://360zy.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -410,9 +410,9 @@
     "priority": 1
   },
   {
-    "id": "didizy-com",
+    "id": "api-ddapi-cc",
     "name": "滴滴资源",
-    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
+    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -420,9 +420,9 @@
     "priority": 1
   },
   {
-    "id": "api-ddapi-cc",
+    "id": "didizy-com",
     "name": "滴滴资源",
-    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
+    "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -938,5 +938,25 @@
     "group": "normal",
     "enabled": true,
     "priority": 1
+  },
+  {
+    "id": "lbapiby-com",
+    "name": "AIvin",
+    "baseUrl": "http://lbapiby.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "lbapi9-com",
+    "name": "乐播资源",
+    "baseUrl": "https://lbapi9.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
   }
 ]
