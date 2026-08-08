@@ -40,14 +40,6 @@
     "group": "normal"
   },
   {
-    "id": "ck",
-    "name": "CK",
-    "baseUrl": "https://www.ckzy1.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium"
-  },
-  {
     "id": "ckzy-me",
     "name": "CK-资源",
     "baseUrl": "https://ckzy.me/api.php/provide/vod",
@@ -166,14 +158,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
-  },
-  {
-    "id": "aosika",
-    "name": "奥斯卡资源",
-    "baseUrl": "https://aosikazy.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium"
   },
   {
     "id": "naixxzy-com",
@@ -296,14 +280,6 @@
     "group": "normal"
   },
   {
-    "id": "senlin",
-    "name": "森林资源",
-    "baseUrl": "https://slapibf.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium"
-  },
-  {
     "id": "yinghua",
     "name": "樱花资源",
     "baseUrl": "https://m3u8.apiyhzy.com/api.php/provide/vod",
@@ -318,14 +294,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
-  },
-  {
-    "id": "xrbsp",
-    "name": "淫水机资源站",
-    "baseUrl": "https://www.xrbsp.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium"
   },
   {
     "id": "didizy-com",
@@ -374,14 +342,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
-  },
-  {
-    "id": "yutu",
-    "name": "玉兔",
-    "baseUrl": "https://yutuzy10.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium"
   },
   {
     "id": "apiyutu-com-120",
@@ -656,14 +616,6 @@
     "group": "normal"
   },
   {
-    "id": "gdlsp",
-    "name": "香奶儿资源站",
-    "baseUrl": "https://www.gdlsp.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium"
-  },
-  {
     "id": "xiangjiaozyw-com",
     "name": "香蕉资源",
     "baseUrl": "https://www.xiangjiaozyw.com/api.php/provide/vod",
@@ -734,14 +686,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
-  },
-  {
-    "id": "hsck",
-    "name": "黄色仓库",
-    "baseUrl": "https://hsckzy.vip/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium"
   },
   {
     "id": "heiliaozy-cc",
@@ -862,14 +806,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
-  },
-  {
-    "id": "baiwan",
-    "name": "百万资源",
-    "baseUrl": "https://api.bwzyz.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium"
   },
   {
     "id": "caiji-putaozy-net",

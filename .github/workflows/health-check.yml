@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - 'master.json'
+      - 'adult-master.json'
       - 'check_sources.js'
 
 permissions:

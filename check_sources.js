@@ -2,20 +2,25 @@
 /**
  * KVideo 源健康巡检 - 零依赖 Node 实现
  *
- * 架构:
- *   master.json     总源池(只读, 巡检永不修改; 手动加源/手动禁用都改这里)
- *   sources.json    订阅输出(巡检自动重写: 只放验证有效的源)  ← 用户订阅这个
- *   disabled.json   失效归档(巡检自动重写: 无效源+原因, 仅供参考)
- *   report.md       巡检报告(历史趋势)
+ * 架构(2026-08-08 v2, 正常/成人分池):
+ *   master.json         正常源总文件(只读, 巡检永不修改; 手动加源/手动禁用都改这里)
+ *   adult-master.json   成人源总文件(只读, 巡检永不修改)
+ *   sources.json        订阅输出(巡检自动重写: 只放验证有效的源, 按来源打组 normal/premium)
+ *   disabled.json       失效归档(巡检自动重写: 无效源+原因, 仅供参考)
+ *   report.md           巡检报告(历史趋势)
+ *
+ * 分组规则: 来自 master.json 的源 -> group=normal(保留原 group 值),
+ *           来自 adult-master.json 的源 -> group=premium(KVideo 官方 premium 分流)
  *
  * 用法: node check_sources.js
  */
 const fs = require('fs');
 const path = require('path');
 
-const MASTER_PATH = path.join(__dirname, 'master.json');       // 只读源池
-const CONFIG_PATH = path.join(__dirname, 'sources.json');      // 订阅输出(有效)
-const ARCHIVE_PATH = path.join(__dirname, 'disabled.json');    // 归档输出(无效)
+const MASTER_PATH = path.join(__dirname, 'master.json');          // 正常源总文件(只读)
+const ADULT_MASTER_PATH = path.join(__dirname, 'adult-master.json'); // 成人源总文件(只读)
+const CONFIG_PATH = path.join(__dirname, 'sources.json');         // 订阅输出(有效)
+const ARCHIVE_PATH = path.join(__dirname, 'disabled.json');       // 归档输出(无效)
 const REPORT_PATH = path.join(__dirname, 'report.md');
 const TIMEOUT_MS = 10000;
 const MAX_RETRY = 2;
@@ -26,7 +31,31 @@ if (!fs.existsSync(MASTER_PATH)) {
   console.error('❌ master.json 不存在');
   process.exit(1);
 }
-const all = JSON.parse(fs.readFileSync(MASTER_PATH, 'utf-8'));
+if (!fs.existsSync(ADULT_MASTER_PATH)) {
+  console.error('❌ adult-master.json 不存在');
+  process.exit(1);
+}
+const normalAll = JSON.parse(fs.readFileSync(MASTER_PATH, 'utf-8'));
+const adultAll = JSON.parse(fs.readFileSync(ADULT_MASTER_PATH, 'utf-8'));
+
+// 合并池, 记录来源, 按来源打组
+// 来自正常总文件: 保留原 group(normal/cartoon/documentary...)
+// 来自成人总文件: 强制 group=premium(KVideo 只认 premium 才进 premiumSources)
+const all = [
+  ...normalAll.map(s => ({ ...s, group: s.group || 'normal', _src: 'normal' })),
+  ...adultAll.map(s => ({ ...s, group: 'premium', _src: 'adult' })),
+];
+
+// id 冲突检查(两个文件不该有相同 id)
+const seen = new Map();
+for (const s of all) {
+  if (seen.has(s.id)) {
+    console.error(`❌ id 冲突: "${s.id}" 同时出现在两个总文件(${seen.get(s.id)} vs ${s._src}), 巡检终止`);
+    process.exit(1);
+  }
+  seen.set(s.id, s._src);
+}
+
 const today = new Date().toISOString().slice(0, 10);
 
 // 历史(report.md 内嵌 JSON): 按天去重, 同一天多次巡检只保留一条记录
@@ -59,7 +88,7 @@ async function fetchWithTimeout(url) {
 }
 
 async function testSource(item) {
-  // master 中手动禁用的跳过复测
+  // 总文件中手动禁用的跳过复测
   if (item._comment === '手动禁用') {
     return { success: false, reason: '手动禁用', isManualDisabled: true };
   }
@@ -88,7 +117,9 @@ async function testSource(item) {
 }
 
 async function main() {
-  console.log(`⏳ 巡检开始: ac=list 存活测试, 源池 ${all.length} 个`);
+  const normalCount = normalAll.length;
+  const adultCount = adultAll.length;
+  console.log(`⏳ 巡检开始: ac=list 存活测试, 正常源池 ${normalCount} + 成人源池 ${adultCount} = ${all.length} 个`);
   const results = [];
   const queue = all.map(item => () => testSource(item).then(res => ({ ...item, ...res })));
   const workers = Array(Math.min(CONCURRENCY, queue.length)).fill(0).map(async () => {
@@ -132,12 +163,12 @@ async function main() {
     return { ...item, statusIcon, rate: rate.toFixed(1) + '%', trend, priority };
   });
 
-  // 输出: 有效 -> sources.json(订阅); 无效 -> disabled.json(归档)
+  // 输出: 有效 -> sources.json(订阅, 按来源打组); 无效 -> disabled.json(归档)
   const good = stats.filter(s => s.statusIcon === '✅')
-    .map(s => ({ id: s.id, name: s.name, baseUrl: s.baseUrl, searchPath: s.searchPath || '', detailPath: s.detailPath || '', group: s.group || 'normal', enabled: true, priority: s.priority }))
+    .map(s => ({ id: s.id, name: s.name, baseUrl: s.baseUrl, searchPath: s.searchPath || '', detailPath: s.detailPath || '', group: s._src === 'adult' ? 'premium' : (s.group || 'normal'), enabled: true, priority: s.priority }))
     .sort((a, b) => a.priority - b.priority || a.name.localeCompare(b.name));
   const bad = stats.filter(s => s.statusIcon !== '✅')
-    .map(s => ({ id: s.id, name: s.name, baseUrl: s.baseUrl, searchPath: s.searchPath || '', detailPath: s.detailPath || '', group: s.group || 'normal', enabled: false, priority: s.priority, _comment: s.reason }))
+    .map(s => ({ id: s.id, name: s.name, baseUrl: s.baseUrl, searchPath: s.searchPath || '', detailPath: s.detailPath || '', group: s._src === 'adult' ? 'premium' : (s.group || 'normal'), enabled: false, priority: s.priority, _comment: s.reason }))
     .sort((a, b) => a.priority - b.priority);
 
   fs.writeFileSync(CONFIG_PATH, JSON.stringify(good, null, 2) + '\n');
@@ -145,20 +176,24 @@ async function main() {
 
   // report.md
   const nowCST = new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('T', ' ').slice(0, 16) + ' CST';
+  const goodNormal = good.filter(s => s.group !== 'premium').length;
+  const goodAdult = good.filter(s => s.group === 'premium').length;
   let md = `# 🎬 API 健康巡检报告\n\n`;
-  md += `> **更新时间：** ${nowCST} | **检测方式：** ac=list 存活测试 | **源池：** ${all.length} | **订阅生效：** ${good.length} | **失效归档：** ${bad.length}\n\n`;
-  md += `| 状态 | 资源名称 | 优先级 | 成功率 | 最近7天趋势 | 源站地址 | 备注 |\n`;
-  md += `| :--- | :--- | :---: | :---: | :--- | :--- | :--- |\n`;
+  md += `> **更新时间：** ${nowCST} | **检测方式：** ac=list 存活测试 | **源池：** 正常 ${normalCount} + 成人 ${adultCount} = ${all.length} | **订阅生效：** ${good.length}(正常 ${goodNormal} + 成人 ${goodAdult}) | **失效归档：** ${bad.length}\n\n`;
+  md += `| 状态 | 分组 | 资源名称 | 优先级 | 成功率 | 最近7天趋势 | 源站地址 | 备注 |\n`;
+  md += `| :--- | :--- | :--- | :---: | :---: | :--- | :--- | :--- |\n`;
   stats.sort((a, b) => a.priority - b.priority).forEach(s => {
     const host = s.baseUrl.replace('https://', '').replace('http://', '').split('/')[0];
-    md += `| ${s.statusIcon} | **${s.name}** | ${s.priority} | ${s.rate} | \`${s.trend}\` | [${host}](${s.baseUrl}) | ${s.statusIcon === '✅' ? '-' : s.reason} |\n`;
+    const grp = s._src === 'adult' ? '🔞 成人' : '正常';
+    md += `| ${s.statusIcon} | ${grp} | **${s.name}** | ${s.priority} | ${s.rate} | \`${s.trend}\` | [${host}](${s.baseUrl}) | ${s.statusIcon === '✅' ? '-' : s.reason} |\n`;
   });
   md += `\n### 💡 状态说明\n- ✅ **生效(在订阅中)** | ❌ **失效(不在订阅中)** | 🚨 **连断3天+** | 🚫 **手动禁用**\n`;
-  md += `- 巡检只读 master.json(总源池), 自动把有效源写入 sources.json 订阅, 失效源留在池中不进入订阅, 恢复后自动回到订阅。\n\n`;
+  md += `- 巡检只读 master.json(正常总池) + adult-master.json(成人总池), 自动把有效源写入 sources.json 订阅, 失效源留在池中不进入订阅, 恢复后自动回到订阅。\n`;
+  md += `- 分组规则: 正常总文件 → group=normal, 成人总文件 → group=premium(KVideo /premium 分流)。\n\n`;
   md += `<details><summary>📜 历史统计数据 (JSON)</summary>\n\n\`\`\`json\n${JSON.stringify(history, null, 2)}\n\`\`\`\n</details>\n`;
   fs.writeFileSync(REPORT_PATH, md);
 
-  console.log(`✅ 完成: 订阅生效 ${good.length} / 失效归档 ${bad.length} (源池 ${all.length} 未动)`);
+  console.log(`✅ 完成: 订阅生效 ${good.length}(正常 ${goodNormal} + 成人 ${goodAdult}) / 失效归档 ${bad.length} (总池 ${all.length} 未动)`);
   console.log(`❌ 失联: ${stats.filter(s => s.statusIcon === '❌').length} | 🚨 连断: ${stats.filter(s => s.statusIcon === '🚨').length} | 🚫 手动: ${stats.filter(s => s.statusIcon === '🚫').length}`);
 }
 

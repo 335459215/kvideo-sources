@@ -30,9 +30,9 @@
     "priority": 10
   },
   {
-    "id": "360zyzz-com",
+    "id": "sanliuling",
     "name": "360资源",
-    "baseUrl": "https://360zyzz.com/api.php/provide/vod",
+    "baseUrl": "https://360zy.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -40,9 +40,9 @@
     "priority": 10
   },
   {
-    "id": "sanliuling",
+    "id": "360zyzz-com",
     "name": "360资源",
-    "baseUrl": "https://360zy.com/api.php/provide/vod",
+    "baseUrl": "https://360zyzz.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -490,22 +490,22 @@
     "priority": 10
   },
   {
-    "id": "yutu",
-    "name": "玉兔",
-    "baseUrl": "https://yutuzy10.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 10
-  },
-  {
     "id": "apiyutu-com-120",
     "name": "玉兔",
     "baseUrl": "https://apiyutu.com/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "yutu",
+    "name": "玉兔",
+    "baseUrl": "https://yutuzy10.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ck",
+    "name": "CK",
+    "baseUrl": "https://www.ckzy1.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "aosika",
+    "name": "奥斯卡资源",
+    "baseUrl": "https://aosikazy.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "senlin",
+    "name": "森林资源",
+    "baseUrl": "https://slapibf.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "xrbsp",
+    "name": "淫水机资源站",
+    "baseUrl": "https://www.xrbsp.com/api/json.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "yutu",
+    "name": "玉兔",
+    "baseUrl": "https://yutuzy10.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "gdlsp",
+    "name": "香奶儿资源站",
+    "baseUrl": "https://www.gdlsp.com/api/json.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "hsck",
+    "name": "黄色仓库",
+    "baseUrl": "https://hsckzy.vip/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "baiwan",
+    "name": "百万资源",
+    "baseUrl": "https://api.bwzyz.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  }
+]
