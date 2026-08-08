@@ -30,9 +30,9 @@
     "priority": 10
   },
   {
-    "id": "sanliuling",
+    "id": "360zyzz-com",
     "name": "360资源",
-    "baseUrl": "https://360zy.com/api.php/provide/vod",
+    "baseUrl": "https://360zyzz.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -40,9 +40,9 @@
     "priority": 10
   },
   {
-    "id": "360zyzz-com",
+    "id": "sanliuling",
     "name": "360资源",
-    "baseUrl": "https://360zyzz.com/api.php/provide/vod",
+    "baseUrl": "https://360zy.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -453,16 +453,6 @@
     "id": "iqiyizyapi-com",
     "name": "爱奇艺",
     "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "aidan",
-    "name": "爱蛋资源",
-    "baseUrl": "https://lovedan.net/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
