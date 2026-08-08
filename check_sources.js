@@ -120,9 +120,13 @@ async function main() {
     if (item.isManualDisabled) statusIcon = '🚫';
     else if (streakFail >= 3) statusIcon = '🚨';
     else if (!item.success) statusIcon = '❌';
+    // 优先级: 老源按成功率晋级; 新源(历史不足3天)观察期固定10, 不冲榜
     let priority = 10;
-    if (statusIcon === '✅') priority = rate >= 100 ? 1 : (rate >= 90 ? 5 : 10);
-    else if (statusIcon === '🚫') priority = 999;
+    const histDays = entries.length;
+    if (statusIcon === '✅') {
+      if (histDays >= 3) priority = rate >= 100 ? 1 : (rate >= 90 ? 5 : 10);
+      else priority = 10;
+    } else if (statusIcon === '🚫') priority = 999;
     else priority = 100 + Math.min(streakFail, 99);
     return { ...item, statusIcon, rate: rate.toFixed(1) + '%', trend, priority };
   });
