@@ -610,9 +610,9 @@
     "priority": 1
   },
   {
-    "id": "caiji-dbzy5-com",
+    "id": "dbzy",
     "name": "豆瓣资源",
-    "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
+    "baseUrl": "https://dbzy.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -620,9 +620,9 @@
     "priority": 1
   },
   {
-    "id": "dbzy",
+    "id": "caiji-dbzy5-com",
     "name": "豆瓣资源",
-    "baseUrl": "https://dbzy.tv/api.php/provide/vod",
+    "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -723,16 +723,6 @@
     "id": "shandian",
     "name": "閃電资源",
     "baseUrl": "https://sdzyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "feifan1",
-    "name": "非凡线路1",
-    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -906,6 +896,16 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "shayuapi-com",
+    "name": "鲨鱼资源",
+    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   }
