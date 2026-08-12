@@ -630,5 +630,37 @@
     "searchPath": "",
     "detailPath": "",
     "group": "premium"
+  },
+  {
+    "id": "vnzyz-com",
+    "name": "越南资源",
+    "baseUrl": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "avre06-com",
+    "name": "黄瓜资源",
+    "baseUrl": "https://www.avre06.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "lyhapi-com",
+    "name": "狼友会",
+    "baseUrl": "https://api.lyhapi.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
+  },
+  {
+    "id": "kuaiavzy-com",
+    "name": "快AV",
+    "baseUrl": "https://kuaiavzy.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium"
   }
 ]

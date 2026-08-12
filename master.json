@@ -750,5 +750,45 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal"
+  },
+  {
+    "id": "ffzy-tv",
+    "name": "非凡影视直连",
+    "baseUrl": "http://ffzy.tv/api.php/provide/vod/",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal"
+  },
+  {
+    "id": "117-232",
+    "name": "建安采集",
+    "baseUrl": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal"
+  },
+  {
+    "id": "dbzy-tv",
+    "name": "豆瓣资源",
+    "baseUrl": "https://caiji.dbzy.tv/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal"
+  },
+  {
+    "id": "haiwaikan-com",
+    "name": "海外看",
+    "baseUrl": "https://haiwaikan.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal"
+  },
+  {
+    "id": "mozhuazy-com",
+    "name": "魔爪资源",
+    "baseUrl": "https://mozhuazy.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal"
   }
 ]
