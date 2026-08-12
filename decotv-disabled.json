@@ -1,15 +1,15 @@
 [
   {
-    "key": "iqiyizyapi-com",
-    "name": "爱奇艺",
-    "api": "https://iqiyizyapi.com/api.php/provide/vod",
-    "_comment": "HTTP 非200/宕机"
+    "key": "aidan",
+    "name": "爱蛋资源",
+    "api": "https://lovedan.net/api.php/provide/vod",
+    "_comment": "接口解析错误/非JSON"
   },
   {
-    "key": "dm01",
-    "name": "动漫库",
-    "api": "https://api.dmku.com/api.php/provide/vod",
-    "_comment": "超时/宕机"
+    "key": "ys01",
+    "name": "影视天堂",
+    "api": "https://api.ystian.com/api.php/provide/vod",
+    "_comment": "接口解析错误/非JSON"
   },
   {
     "key": "doc01",
@@ -30,27 +30,9 @@
     "_comment": "接口解析错误/非JSON"
   },
   {
-    "key": "ys02",
-    "name": "高清资源站",
-    "api": "https://api.gaoqing.top/api.php/provide/vod",
-    "_comment": "超时/宕机"
-  },
-  {
-    "key": "baofeng2",
-    "name": "暴风APP",
-    "api": "https://app.bfzyapi.com/api.php/provide/vod",
-    "_comment": "HTTP 非200/宕机"
-  },
-  {
-    "key": "wolong2",
-    "name": "卧龙采集",
-    "api": "https://collect.wolongzyw.com/api.php/provide/vod",
-    "_comment": "接口解析错误/非JSON"
-  },
-  {
-    "key": "wolongcc",
-    "name": "卧龙CC",
-    "api": "https://collect.wolongzy.cc/api.php/provide/vod",
+    "key": "dm01",
+    "name": "动漫库",
+    "api": "https://api.dmku.com/api.php/provide/vod",
     "_comment": "超时/宕机"
   },
   {
@@ -60,9 +42,27 @@
     "_comment": "接口解析错误/非JSON"
   },
   {
-    "key": "ys01",
-    "name": "影视天堂",
-    "api": "https://api.ystian.com/api.php/provide/vod",
+    "key": "ys02",
+    "name": "高清资源站",
+    "api": "https://api.gaoqing.top/api.php/provide/vod",
+    "_comment": "超时/宕机"
+  },
+  {
+    "key": "wolong2",
+    "name": "卧龙采集",
+    "api": "https://collect.wolongzyw.com/api.php/provide/vod",
+    "_comment": "接口解析错误/非JSON"
+  },
+  {
+    "key": "baofeng2",
+    "name": "暴风APP",
+    "api": "https://app.bfzyapi.com/api.php/provide/vod",
+    "_comment": "HTTP 非200/宕机"
+  },
+  {
+    "key": "piaoling",
+    "name": "飘零资源",
+    "api": "https://p2100.net/api.php/provide/vod",
     "_comment": "HTTP 非200/宕机"
   },
   {
@@ -72,28 +72,16 @@
     "_comment": "超时/宕机"
   },
   {
-    "key": "piaoling",
-    "name": "飘零资源",
-    "api": "https://p2100.net/api.php/provide/vod",
-    "_comment": "HTTP 非200/宕机"
-  },
-  {
-    "key": "kkzy-me",
-    "name": "KK资源网",
-    "api": "https://kkzy.me/api.php/provide/vod/at/xmlsea",
-    "_comment": "超时/宕机"
-  },
-  {
     "key": "dadiapi-com",
     "name": "大地",
     "api": "https://dadiapi.com/api.php",
     "_comment": "接口解析错误/非JSON"
   },
   {
-    "key": "ggmmzy-com-9999",
-    "name": "哥哥妹妹",
-    "api": "http://www.ggmmzy.com:9999/inc/xml",
-    "_comment": "超时/宕机"
+    "key": "pz-v88-qzz-io-101",
+    "name": "百度云zy",
+    "api": "https://pz.v88.qzz.io/?url=https://api.apibdzy.com/api.php/provide/vod",
+    "_comment": "HTTP 非200/宕机"
   },
   {
     "key": "yyzywcj-com",
@@ -102,9 +90,27 @@
     "_comment": "超时/宕机"
   },
   {
+    "key": "wolongcc",
+    "name": "卧龙CC",
+    "api": "https://collect.wolongzy.cc/api.php/provide/vod",
+    "_comment": "超时/宕机"
+  },
+  {
+    "key": "ggmmzy-com-9999",
+    "name": "哥哥妹妹",
+    "api": "http://www.ggmmzy.com:9999/inc/xml",
+    "_comment": "超时/宕机"
+  },
+  {
     "key": "api-apilyzy-com",
     "name": "老鸭",
     "api": "https://api.apilyzy.com/api.php/provide/vod",
+    "_comment": "超时/宕机"
+  },
+  {
+    "key": "xx55zyapi-com",
+    "name": "点点娱乐",
+    "api": "https://xx55zyapi.com/home/cjapi/ascf/mc10/vod/xml",
     "_comment": "超时/宕机"
   },
   {
@@ -126,27 +132,27 @@
     "_comment": "HTTP 非200/宕机"
   },
   {
+    "key": "jgczyapi-com",
+    "name": "精工厂资源",
+    "api": "https://jgczyapi.com/home/cjapi/kld2/mc10/vod/xml",
+    "_comment": "超时/宕机"
+  },
+  {
+    "key": "kkzy-me",
+    "name": "KK资源网",
+    "api": "https://kkzy.me/api.php/provide/vod/at/xmlsea",
+    "_comment": "超时/宕机"
+  },
+  {
     "key": "caiyunjidi-com",
     "name": "菜云",
     "api": "https://www.caiyunjidi.com/api/vod.php",
     "_comment": "超时/宕机"
   },
   {
-    "key": "pz-v88-qzz-io-101",
-    "name": "百度云zy",
-    "api": "https://pz.v88.qzz.io/?url=https://api.apibdzy.com/api.php/provide/vod",
-    "_comment": "HTTP 非200/宕机"
-  },
-  {
     "key": "221zyz-vip",
     "name": "壹壹资源",
     "api": "https://www.221zyz.vip/inc/api.php",
-    "_comment": "超时/宕机"
-  },
-  {
-    "key": "xx55zyapi-com",
-    "name": "点点娱乐",
-    "api": "https://xx55zyapi.com/home/cjapi/ascf/mc10/vod/xml",
     "_comment": "超时/宕机"
   },
   {
@@ -165,12 +171,6 @@
     "key": "hd7000-com",
     "name": "7000影视",
     "api": "https://hd7000.com/api.php/provide/vod/?ac=list",
-    "_comment": "超时/宕机"
-  },
-  {
-    "key": "jgczyapi-com",
-    "name": "精工厂资源",
-    "api": "https://jgczyapi.com/home/cjapi/kld2/mc10/vod/xml",
     "_comment": "超时/宕机"
   },
   {
@@ -222,21 +222,15 @@
     "_comment": "超时/宕机"
   },
   {
-    "key": "api-vodkok2-com",
-    "name": "KOK资源",
-    "api": "https://api.vodkok2.com/api.php/provide/vod",
-    "_comment": "超时/宕机"
-  },
-  {
     "key": "156-249-29-8",
     "name": "蛋蛋视频",
     "api": "https://156.249.29.8/inc/apijson_vod.php",
     "_comment": "超时/宕机"
   },
   {
-    "key": "dbzy-tv",
-    "name": "豆瓣资源",
-    "api": "https://caiji.dbzy.tv/api.php/provide/vod",
+    "key": "api-vodkok2-com",
+    "name": "KOK资源",
+    "api": "https://api.vodkok2.com/api.php/provide/vod",
     "_comment": "超时/宕机"
   },
   {
@@ -246,10 +240,10 @@
     "_comment": "HTTP 非200/宕机"
   },
   {
-    "key": "shayuapi-com-107",
-    "name": "shayu",
-    "api": "https://shayuapi.com/api.php/Seacms/vod",
-    "_comment": "HTTP 非200/宕机"
+    "key": "dbzy-tv",
+    "name": "豆瓣资源",
+    "api": "https://caiji.dbzy.tv/api.php/provide/vod",
+    "_comment": "超时/宕机"
   },
   {
     "key": "haiwaikan-com",
@@ -264,30 +258,16 @@
     "_comment": "超时/宕机"
   },
   {
-    "key": "sewozyapi-com",
-    "name": "色窝资源",
-    "api": "https://sewozyapi.com/api.php/provide/vod",
+    "key": "caiji-semaozy-net",
+    "name": "色猫",
+    "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
     "is_adult": true,
-    "_comment": "超时/宕机"
-  },
-  {
-    "key": "baiwan",
-    "name": "百万资源",
-    "api": "https://api.bwzyz.com/api.php/provide/vod",
-    "is_adult": true,
-    "_comment": "超时/宕机"
+    "_comment": "列表为空"
   },
   {
     "key": "xrbsp-com",
     "name": "淫水机",
     "api": "https://www.xrbsp.com/api/xml.php",
-    "is_adult": true,
-    "_comment": "接口解析错误/非JSON"
-  },
-  {
-    "key": "gdlsp-com",
-    "name": "香奶儿",
-    "api": "https://www.gdlsp.com/api/xml.php",
     "is_adult": true,
     "_comment": "接口解析错误/非JSON"
   },
@@ -299,6 +279,13 @@
     "_comment": "接口解析错误/非JSON"
   },
   {
+    "key": "gdlsp-com",
+    "name": "香奶儿",
+    "api": "https://www.gdlsp.com/api/xml.php",
+    "is_adult": true,
+    "_comment": "接口解析错误/非JSON"
+  },
+  {
     "key": "kxgav-com",
     "name": "白嫖",
     "api": "https://www.kxgav.com/api/xml.php",
@@ -306,30 +293,23 @@
     "_comment": "接口解析错误/非JSON"
   },
   {
-    "key": "caiji-semaozy-net",
-    "name": "色猫",
-    "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
+    "key": "baiwan",
+    "name": "百万资源",
+    "api": "https://api.bwzyz.com/api.php/provide/vod",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
   {
-    "key": "api-xiuseapi-com",
-    "name": "秀色",
-    "api": "https://api.xiuseapi.com/api.php/provide/vod",
+    "key": "api-maozyapi-com",
+    "name": "色猫资源",
+    "api": "https://api.maozyapi.com/inc/api.php",
     "is_adult": true,
-    "_comment": "超时/宕机"
+    "_comment": "HTTP 非200/宕机"
   },
   {
-    "key": "legallet-org",
-    "name": "免費AV線上看",
-    "api": "https://legallet.org/api.php/provide/vod/?ac=list",
-    "is_adult": true,
-    "_comment": "超时/宕机"
-  },
-  {
-    "key": "api-seyavod-com",
-    "name": "色鸭资源",
-    "api": "https://api.seyavod.com/api.php/provide/vod/?ac=list",
+    "key": "sewozyapi-com",
+    "name": "色窝资源",
+    "api": "https://sewozyapi.com/api.php/provide/vod",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
@@ -341,16 +321,16 @@
     "_comment": "超时/宕机"
   },
   {
-    "key": "siwazyw-cc",
-    "name": "丝袜",
-    "api": "https://www.siwazyw.cc/api.php/provide/vod",
+    "key": "sdszyapi-com",
+    "name": "色屌丝",
+    "api": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
   {
-    "key": "sdszyapi-com",
-    "name": "色屌丝",
-    "api": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
+    "key": "api-xiuseapi-com",
+    "name": "秀色",
+    "api": "https://api.xiuseapi.com/api.php/provide/vod",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
@@ -362,9 +342,9 @@
     "_comment": "接口解析错误/非JSON"
   },
   {
-    "key": "api-huasezy-xyz",
-    "name": "花色资源",
-    "api": "https://api.huasezy.xyz/api.php/provide/vod/?ac=list",
+    "key": "siwazyw-cc",
+    "name": "丝袜",
+    "api": "https://www.siwazyw.cc/api.php/provide/vod",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
@@ -383,18 +363,31 @@
     "_comment": "接口解析错误/非JSON"
   },
   {
+    "key": "api-seyavod-com",
+    "name": "色鸭资源",
+    "api": "https://api.seyavod.com/api.php/provide/vod/?ac=list",
+    "is_adult": true,
+    "_comment": "超时/宕机"
+  },
+  {
+    "key": "shayuapi-com-107",
+    "name": "shayu",
+    "api": "https://shayuapi.com/api.php/Seacms/vod",
+    "_comment": "HTTP 非200/宕机"
+  },
+  {
+    "key": "legallet-org",
+    "name": "免費AV線上看",
+    "api": "https://legallet.org/api.php/provide/vod/?ac=list",
+    "is_adult": true,
+    "_comment": "超时/宕机"
+  },
+  {
     "key": "api-sexnguon-com",
     "name": "色南国资源",
     "api": "https://api.sexnguon.com/api.php/provide/vod/?ac=list",
     "is_adult": true,
     "_comment": "超时/宕机"
-  },
-  {
-    "key": "mgav1-cc",
-    "name": "芒果",
-    "api": "https://www.mgav1.cc/api.php/provide/vod",
-    "is_adult": true,
-    "_comment": "接口解析错误/非JSON"
   },
   {
     "key": "hszy-vip",
@@ -404,11 +397,18 @@
     "_comment": "接口解析错误/非JSON"
   },
   {
-    "key": "api-maozyapi-com",
-    "name": "色猫资源",
-    "api": "https://api.maozyapi.com/inc/api.php",
+    "key": "mgav1-cc",
+    "name": "芒果",
+    "api": "https://www.mgav1.cc/api.php/provide/vod",
     "is_adult": true,
-    "_comment": "HTTP 非200/宕机"
+    "_comment": "接口解析错误/非JSON"
+  },
+  {
+    "key": "api-huasezy-xyz",
+    "name": "花色资源",
+    "api": "https://api.huasezy.xyz/api.php/provide/vod/?ac=list",
+    "is_adult": true,
+    "_comment": "超时/宕机"
   },
   {
     "key": "caoliuzyw-com",
@@ -425,9 +425,9 @@
     "_comment": "超时/宕机"
   },
   {
-    "key": "qlzy-tv",
-    "name": "青楼资源",
-    "api": "https://qlzy.tv/api.php/provide/vod/?ac=list",
+    "key": "caoliuzy-com",
+    "name": "草榴",
+    "api": "https://www.caoliuzy.com/api.php/provide/vod/at/json",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
@@ -439,9 +439,9 @@
     "_comment": "超时/宕机"
   },
   {
-    "key": "dmmapi-com",
-    "name": "大MM资源",
-    "api": "https://www.dmmapi.com/home/cjapi/asd2c7/mc10/vod/xml",
+    "key": "qlzy-tv",
+    "name": "青楼资源",
+    "api": "https://qlzy.tv/api.php/provide/vod/?ac=list",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
@@ -453,9 +453,9 @@
     "_comment": "接口解析错误/非JSON"
   },
   {
-    "key": "caoliuzy-com",
-    "name": "草榴",
-    "api": "https://www.caoliuzy.com/api.php/provide/vod/at/json",
+    "key": "dmmapi-com",
+    "name": "大MM资源",
+    "api": "https://www.dmmapi.com/home/cjapi/asd2c7/mc10/vod/xml",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
@@ -474,6 +474,20 @@
     "_comment": "接口解析错误/非JSON"
   },
   {
+    "key": "xjjzyapi-com",
+    "name": "小姐姐资源",
+    "api": "https://xjjzyapi.com/home/cjapi/askl/mc10/vod/xml",
+    "is_adult": true,
+    "_comment": "超时/宕机"
+  },
+  {
+    "key": "avre00-com",
+    "name": "黄瓜",
+    "api": "https://www.avre00.com/api.php/Prodao/vod/?ac=list",
+    "is_adult": true,
+    "_comment": "超时/宕机"
+  },
+  {
     "key": "api-yrzyapi-com",
     "name": "伊人",
     "api": "https://api.yrzyapi.com/api.php/provide/vod/?ac=list",
@@ -481,11 +495,11 @@
     "_comment": "超时/宕机"
   },
   {
-    "key": "madoucun-com",
-    "name": "森林资源",
-    "api": "https://madoucun.com//api.php/provide/vod/?ac=list",
+    "key": "caiji25-com",
+    "name": "咪咪资源",
+    "api": "http://www.caiji25.com/home/cjapi/p0as/mc10/vod/json",
     "is_adult": true,
-    "_comment": "HTTP 非200/宕机"
+    "_comment": "超时/宕机"
   },
   {
     "key": "cj-apihjzy-com",
@@ -495,23 +509,16 @@
     "_comment": "超时/宕机"
   },
   {
-    "key": "xjjzyapi-com",
-    "name": "小姐姐资源",
-    "api": "https://xjjzyapi.com/home/cjapi/askl/mc10/vod/xml",
+    "key": "mgzyz1-com",
+    "name": "芒果",
+    "api": "https://mgzyz1.com/api.php/provide/vod/?ac=list",
     "is_adult": true,
-    "_comment": "超时/宕机"
+    "_comment": "接口解析错误/非JSON"
   },
   {
     "key": "99zy-pw",
     "name": "久久",
     "api": "http://99zy.pw/api.php/provide/vod",
-    "is_adult": true,
-    "_comment": "超时/宕机"
-  },
-  {
-    "key": "mgzyz1-com",
-    "name": "芒果",
-    "api": "https://mgzyz1.com/api.php/provide/vod/?ac=list",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
@@ -523,11 +530,11 @@
     "_comment": "HTTP 非200/宕机"
   },
   {
-    "key": "caiji25-com",
-    "name": "咪咪资源",
-    "api": "http://www.caiji25.com/home/cjapi/p0as/mc10/vod/json",
+    "key": "madoucun-com",
+    "name": "森林资源",
+    "api": "https://madoucun.com//api.php/provide/vod/?ac=list",
     "is_adult": true,
-    "_comment": "超时/宕机"
+    "_comment": "HTTP 非200/宕机"
   },
   {
     "key": "api-yirenziyuan-com",
@@ -544,9 +551,16 @@
     "_comment": "HTTP 非200/宕机"
   },
   {
-    "key": "avre00-com",
-    "name": "黄瓜",
-    "api": "https://www.avre00.com/api.php/Prodao/vod/?ac=list",
+    "key": "avre06-com",
+    "name": "黄瓜资源",
+    "api": "https://www.avre06.com/api.php/provide/vod/?ac=list",
+    "is_adult": true,
+    "_comment": "超时/宕机"
+  },
+  {
+    "key": "lbapiby-com",
+    "name": "AIvin",
+    "api": "http://lbapiby.com/api.php/provide/vod",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
@@ -554,13 +568,6 @@
     "key": "apittzy-com",
     "name": "探探资源",
     "api": "https://apittzy.com/api.php/provide/vod",
-    "is_adult": true,
-    "_comment": "超时/宕机"
-  },
-  {
-    "key": "avre06-com",
-    "name": "黄瓜资源",
-    "api": "https://www.avre06.com/api.php/provide/vod/?ac=list",
     "is_adult": true,
     "_comment": "超时/宕机"
   },
