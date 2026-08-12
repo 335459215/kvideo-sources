@@ -1,0 +1,472 @@
+{
+  "cache_time": 7200,
+  "api_site": {
+    "ck": {
+      "api": "https://www.ckzy1.com/api.php/provide/vod",
+      "name": "CK",
+      "is_adult": true
+    },
+    "aosika": {
+      "api": "https://aosikazy.com/api.php/provide/vod",
+      "name": "奥斯卡资源",
+      "is_adult": true
+    },
+    "senlin": {
+      "api": "https://slapibf.com/api.php/provide/vod",
+      "name": "森林资源",
+      "is_adult": true
+    },
+    "xrbsp": {
+      "api": "https://www.xrbsp.com/api/json.php",
+      "name": "淫水机资源站",
+      "is_adult": true
+    },
+    "yutu": {
+      "api": "https://yutuzy10.com/api.php/provide/vod",
+      "name": "玉兔",
+      "is_adult": true
+    },
+    "gdlsp": {
+      "api": "https://www.gdlsp.com/api/json.php",
+      "name": "香奶儿资源站",
+      "is_adult": true
+    },
+    "hsck": {
+      "api": "https://hsckzy.vip/api.php/provide/vod",
+      "name": "黄色仓库",
+      "is_adult": true
+    },
+    "baiwan": {
+      "api": "https://api.bwzyz.com/api.php/provide/vod",
+      "name": "百万资源",
+      "is_adult": true
+    },
+    "155api-com": {
+      "api": "https://155api.com/api.php/provide/vod/?ac=list",
+      "name": "155",
+      "is_adult": true
+    },
+    "jkunzyapi-com": {
+      "api": "https://jkunzyapi.com/api.php/provide/vod",
+      "name": "jkun资源",
+      "is_adult": true
+    },
+    "naixxzy-com": {
+      "api": "https://Naixxzy.com/api.php/provide/vod/?ac=list",
+      "name": "奶香",
+      "is_adult": true
+    },
+    "xiaojizy-live": {
+      "api": "https://api.xiaojizy.live/provide/vod",
+      "name": "小鸡资源",
+      "is_adult": true
+    },
+    "fhapi9-com": {
+      "api": "http://fhapi9.com/api.php/provide/vod",
+      "name": "番号资源",
+      "is_adult": true
+    },
+    "www-kxgav-com": {
+      "api": "https://www.kxgav.com/api/json.php",
+      "name": "白嫖资源",
+      "is_adult": true
+    },
+    "www-jingpinx-com": {
+      "api": "https://www.jingpinx.com/api.php/provide/vod",
+      "name": "精品资源",
+      "is_adult": true
+    },
+    "www-xxibaozyw-com": {
+      "api": "https://www.xxibaozyw.com/api.php/provide/vod",
+      "name": "细胞资源",
+      "is_adult": true
+    },
+    "www-msnii-com": {
+      "api": "https://www.msnii.com/api/json.php",
+      "name": "美少女",
+      "is_adult": true
+    },
+    "apilsbzy1-com": {
+      "api": "https://apilsbzy1.com/api.php/provide/vod",
+      "name": "老色逼",
+      "is_adult": true
+    },
+    "shayuapi-com": {
+      "api": "https://shayuapi.com/api.php/provide/vod",
+      "name": "鲨鱼资源",
+      "is_adult": true
+    },
+    "91md-me": {
+      "api": "https://91md.me/api.php/provide/vod",
+      "name": "麻豆视频",
+      "is_adult": true
+    },
+    "www-pgxdy-com": {
+      "api": "https://www.pgxdy.com/api/json.php",
+      "name": "黄AVZY",
+      "is_adult": true
+    },
+    "lbapi9-com": {
+      "api": "https://lbapi9.com/api.php/provide/vod",
+      "name": "乐播资源",
+      "is_adult": true
+    },
+    "souavzyw-com": {
+      "api": "https://api.souavzyw.net/api.php/provide/vod",
+      "name": "souavZY",
+      "is_adult": true
+    },
+    "apidanaizi-com": {
+      "api": "https://apidanaizi.com/api.php/provide/vod",
+      "name": "大奶子",
+      "is_adult": true
+    },
+    "hsckzy-xyz": {
+      "api": "https://hsckzy.xyz/api.php/provide/vod",
+      "name": "黄色仓库",
+      "is_adult": true
+    },
+    "api-maozyapi-com": {
+      "api": "https://api.maozyapi.com/inc/api.php",
+      "name": "色猫资源",
+      "is_adult": true
+    },
+    "sewozyapi-com": {
+      "api": "https://sewozyapi.com/api.php/provide/vod",
+      "name": "色窝资源",
+      "is_adult": true
+    },
+    "52zyapi-com": {
+      "api": "https://52zyapi.com/home/cjapi/asda/mc10/vod/xml",
+      "name": "52AVAV",
+      "is_adult": true
+    },
+    "sdszyapi-com": {
+      "api": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
+      "name": "色屌丝",
+      "is_adult": true
+    },
+    "caiji-semaozy-net": {
+      "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
+      "name": "色猫",
+      "is_adult": true
+    },
+    "xrbsp-com": {
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "name": "淫水机",
+      "is_adult": true
+    },
+    "pgxdy-com": {
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "name": "黄AV",
+      "is_adult": true
+    },
+    "gdlsp-com": {
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "name": "香奶儿",
+      "is_adult": true
+    },
+    "kxgav-com": {
+      "api": "https://www.kxgav.com/api/xml.php",
+      "name": "白嫖",
+      "is_adult": true
+    },
+    "siwazyw-cc": {
+      "api": "https://www.siwazyw.cc/api.php/provide/vod",
+      "name": "丝袜",
+      "is_adult": true
+    },
+    "api-xiuseapi-com": {
+      "api": "https://api.xiuseapi.com/api.php/provide/vod",
+      "name": "秀色",
+      "is_adult": true
+    },
+    "legallet-org": {
+      "api": "https://legallet.org/api.php/provide/vod/?ac=list",
+      "name": "免費AV線上看",
+      "is_adult": true
+    },
+    "api-seyavod-com": {
+      "api": "https://api.seyavod.com/api.php/provide/vod/?ac=list",
+      "name": "色鸭资源",
+      "is_adult": true
+    },
+    "tmav-art": {
+      "api": "https://tmav.art/api.php/provide/vod",
+      "name": "天美AV",
+      "is_adult": true
+    },
+    "api-sexnguon-com": {
+      "api": "https://api.sexnguon.com/api.php/provide/vod/?ac=list",
+      "name": "色南国资源",
+      "is_adult": true
+    },
+    "hszy-vip": {
+      "api": "http://hszy.vip/api.php/provide/vod/?ac=detail",
+      "name": "黄色资源",
+      "is_adult": true
+    },
+    "api-huasezy-xyz": {
+      "api": "https://api.huasezy.xyz/api.php/provide/vod/?ac=list",
+      "name": "花色资源",
+      "is_adult": true
+    },
+    "secj8-com": {
+      "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+      "name": "色色吧",
+      "is_adult": true
+    },
+    "secj8-com-172": {
+      "api": "http://secj8.com/inc/sapi.php",
+      "name": "色色资源",
+      "is_adult": true
+    },
+    "mgav1-cc": {
+      "api": "https://www.mgav1.cc/api.php/provide/vod",
+      "name": "芒果",
+      "is_adult": true
+    },
+    "avre00-com": {
+      "api": "https://www.avre00.com/api.php/Prodao/vod/?ac=list",
+      "name": "黄瓜",
+      "is_adult": true
+    },
+    "xingba111-com": {
+      "api": "https://xingba222.com/api.php/provide/vod",
+      "name": "杏吧资源",
+      "is_adult": true
+    },
+    "beiyong-slapibf-com": {
+      "api": "https://beiyong.slapibf.com/api.php/provide/vod",
+      "name": "森林资源",
+      "is_adult": true
+    },
+    "caoliuzy-com": {
+      "api": "https://www.caoliuzy.com/api.php/provide/vod/at/json",
+      "name": "草榴",
+      "is_adult": true
+    },
+    "caoliuzyw-com": {
+      "api": "https://www.caoliuzyw.com/api.php/provide/vod/at/json",
+      "name": "草榴资源",
+      "is_adult": true
+    },
+    "afasu-com": {
+      "api": "https://www.afasu.com/api/xml.php",
+      "name": "小湿妹",
+      "is_adult": true
+    },
+    "xxhd-online": {
+      "api": "https://xxhd.online//api.php/provide/vod/?ac=list",
+      "name": "羞涩高清",
+      "is_adult": true
+    },
+    "qlzy-tv": {
+      "api": "https://qlzy.tv/api.php/provide/vod/?ac=list",
+      "name": "青楼资源",
+      "is_adult": true
+    },
+    "dmmapi-com": {
+      "api": "https://www.dmmapi.com/home/cjapi/asd2c7/mc10/vod/xml",
+      "name": "大MM资源",
+      "is_adult": true
+    },
+    "xjjzyapi-com": {
+      "api": "https://xjjzyapi.com/home/cjapi/askl/mc10/vod/xml",
+      "name": "小姐姐资源",
+      "is_adult": true
+    },
+    "zmcj88-com": {
+      "api": "http://zmcj88.com/api?ac=list",
+      "name": "泡芙资源",
+      "is_adult": true
+    },
+    "madoucun-com": {
+      "api": "https://madoucun.com//api.php/provide/vod/?ac=list",
+      "name": "森林资源",
+      "is_adult": true
+    },
+    "caiji25-com": {
+      "api": "http://www.caiji25.com/home/cjapi/p0as/mc10/vod/json",
+      "name": "咪咪资源",
+      "is_adult": true
+    },
+    "msnii-com": {
+      "api": "https://www.msnii.com/api/xml.php",
+      "name": "美少女",
+      "is_adult": true
+    },
+    "api-yrzyapi-com": {
+      "api": "https://api.yrzyapi.com/api.php/provide/vod/?ac=list",
+      "name": "伊人",
+      "is_adult": true
+    },
+    "apihjzy-com": {
+      "api": "https://apihjzy.com/api.php/provide/vod",
+      "name": "花椒",
+      "is_adult": true
+    },
+    "cj-apihjzy-com": {
+      "api": "https://cj.apihjzy.com/inc/api.php",
+      "name": "花椒",
+      "is_adult": true
+    },
+    "lbapiby-com": {
+      "api": "http://lbapiby.com/api.php/provide/vod",
+      "name": "AIvin",
+      "is_adult": true
+    },
+    "heiliaozy-cc": {
+      "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
+      "name": "黑料资源",
+      "is_adult": true
+    },
+    "99zy-pw": {
+      "api": "http://99zy.pw/api.php/provide/vod",
+      "name": "久久",
+      "is_adult": true
+    },
+    "bttcj-com": {
+      "api": "http://bttcj.com/inc/sapi.php",
+      "name": "天堂",
+      "is_adult": true
+    },
+    "apittzy-com": {
+      "api": "https://apittzy.com/api.php/provide/vod",
+      "name": "探探资源",
+      "is_adult": true
+    },
+    "mgzyz1-com": {
+      "api": "https://mgzyz1.com/api.php/provide/vod/?ac=list",
+      "name": "芒果",
+      "is_adult": true
+    },
+    "ckzy-me": {
+      "api": "https://ckzy.me/api.php/provide/vod",
+      "name": "CK-资源",
+      "is_adult": true
+    },
+    "yutuzy3-com": {
+      "api": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
+      "name": "玉兔资源",
+      "is_adult": true
+    },
+    "apiyutu-com": {
+      "api": "https://apiyutu.com/api.php/provide/vod",
+      "name": "玉兔资源",
+      "is_adult": true
+    },
+    "xiangjiaozyw-com": {
+      "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
+      "name": "香蕉资源",
+      "is_adult": true
+    },
+    "apilj-com": {
+      "api": "https://apilj.com/api.php/provide/vod",
+      "name": "辣椒资源",
+      "is_adult": true
+    },
+    "apilj-com-118": {
+      "api": "https://apilj.com/api.php/provide/vod/at/json",
+      "name": "辣椒",
+      "is_adult": true
+    },
+    "api-11bat-com": {
+      "api": "http://api.11bat.com/api.php/provide/vod",
+      "name": "辣椒2",
+      "is_adult": true
+    },
+    "api-yirenziyuan-com": {
+      "api": "https://api.yirenziyuan.com/api.php/provide/vod/?ac=list",
+      "name": "伊人资源",
+      "is_adult": true
+    },
+    "thzy8-me": {
+      "api": "https://thzy1.me/api.php/provide/vod",
+      "name": "桃花资源",
+      "is_adult": true
+    },
+    "didizy-com": {
+      "api": "https://api.ddapi.cc/api.php/provide/vod",
+      "name": "滴滴资源",
+      "is_adult": true
+    },
+    "doudouzy-com": {
+      "api": "https://api.douapi.cc/api.php/provide/vod",
+      "name": "豆豆资源",
+      "is_adult": true
+    },
+    "vnzyz-com": {
+      "api": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+      "name": "越南资源",
+      "is_adult": true
+    },
+    "avre06-com": {
+      "api": "https://www.avre06.com/api.php/provide/vod/?ac=list",
+      "name": "黄瓜资源",
+      "is_adult": true
+    },
+    "lyhapi-com": {
+      "api": "https://api.lyhapi.com/api.php/provide/vod/?ac=list",
+      "name": "狼友会",
+      "is_adult": true
+    },
+    "kuaiavzy-com": {
+      "api": "https://kuaiavzy.com/api.php/provide/vod/?ac=list",
+      "name": "快AV",
+      "is_adult": true
+    }
+  },
+  "custom_category": [
+    {
+      "name": "热门",
+      "type": "movie",
+      "query": "热门"
+    },
+    {
+      "name": "最新",
+      "type": "movie",
+      "query": "最新"
+    },
+    {
+      "name": "豆瓣高分",
+      "type": "movie",
+      "query": "豆瓣高分"
+    },
+    {
+      "name": "美剧",
+      "type": "tv",
+      "query": "美剧"
+    },
+    {
+      "name": "韩剧",
+      "type": "tv",
+      "query": "韩剧"
+    },
+    {
+      "name": "日剧",
+      "type": "tv",
+      "query": "日剧"
+    },
+    {
+      "name": "国产剧",
+      "type": "tv",
+      "query": "国产剧"
+    },
+    {
+      "name": "日本动画",
+      "type": "tv",
+      "query": "日本动画"
+    },
+    {
+      "name": "综艺",
+      "type": "tv",
+      "query": "综艺"
+    },
+    {
+      "name": "纪录片",
+      "type": "tv",
+      "query": "纪录片"
+    }
+  ]
+}
