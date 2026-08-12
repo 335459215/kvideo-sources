@@ -450,9 +450,9 @@
     "priority": 1
   },
   {
-    "id": "yutuzy3-com",
+    "id": "apiyutu-com",
     "name": "玉兔资源",
-    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
+    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -460,9 +460,9 @@
     "priority": 1
   },
   {
-    "id": "apiyutu-com",
+    "id": "yutuzy3-com",
     "name": "玉兔资源",
-    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
+    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -880,6 +880,16 @@
     "priority": 1
   },
   {
+    "id": "117-232",
+    "name": "建安采集",
+    "baseUrl": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
     "id": "aidan",
     "name": "爱蛋资源",
     "baseUrl": "https://lovedan.net/api.php/provide/vod",
@@ -890,9 +900,39 @@
     "priority": 10
   },
   {
+    "id": "vnzyz-com",
+    "name": "越南资源",
+    "baseUrl": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 10
+  },
+  {
     "id": "jinying",
     "name": "金鹰点播",
     "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "ffzy-tv",
+    "name": "非凡影视直连",
+    "baseUrl": "http://ffzy.tv/api.php/provide/vod/",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "feifan1",
+    "name": "非凡线路1",
+    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
