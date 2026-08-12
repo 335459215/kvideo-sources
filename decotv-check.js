@@ -151,9 +151,9 @@ async function main() {
   const configStr = JSON.stringify(config, null, 2) + '\n';
   fs.writeFileSync(CONFIG_PATH, configStr);
 
-  // Base58 编码订阅
+  // Base58 编码订阅 (注意: 不加换行符, bs58.decode 不 trim, 换行会报 Non-base58 character)
   const b58 = base58Encode(Buffer.from(configStr, 'utf-8'));
-  fs.writeFileSync(CONFIG_TXT_PATH, b58 + '\n');
+  fs.writeFileSync(CONFIG_TXT_PATH, b58);
 
   // 失效归档
   const badArchive = bad.map(s => ({
