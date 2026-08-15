@@ -340,16 +340,6 @@
     "priority": 1
   },
   {
-    "id": "bubugao",
-    "name": "步步高资源",
-    "baseUrl": "https://api.yparse.com/api/json",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "xrbsp",
     "name": "淫水机资源站",
     "baseUrl": "https://www.xrbsp.com/api/json.php",
