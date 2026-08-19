@@ -840,12 +840,32 @@
     "priority": 10
   },
   {
+    "id": "aidan",
+    "name": "爱蛋资源",
+    "baseUrl": "https://lovedan.net/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
     "id": "dyttzyapi-com",
     "name": "电影天堂",
     "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "vnzyz-com",
+    "name": "越南资源",
+    "baseUrl": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   },
