@@ -350,9 +350,9 @@
     "priority": 1
   },
   {
-    "id": "yutuzy3-com",
+    "id": "apiyutu-com",
     "name": "玉兔资源",
-    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
+    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -360,9 +360,9 @@
     "priority": 1
   },
   {
-    "id": "apiyutu-com",
+    "id": "yutuzy3-com",
     "name": "玉兔资源",
-    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
+    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -640,12 +640,42 @@
     "priority": 5
   },
   {
+    "id": "ikunzy-com",
+    "name": "iKun资源",
+    "baseUrl": "https://ikunzyapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "jkunzyapi-com",
+    "name": "jkun资源",
+    "baseUrl": "https://jkunzyapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "api-guangsuapi-com",
     "name": "光速资源",
     "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "aosika",
+    "name": "奥斯卡资源",
+    "baseUrl": "https://aosikazy.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
     "enabled": true,
     "priority": 5
   },
@@ -800,6 +830,16 @@
     "priority": 10
   },
   {
+    "id": "iqiyizyapi-com",
+    "name": "爱奇艺",
+    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
     "id": "aidan",
     "name": "爱蛋资源",
     "baseUrl": "https://lovedan.net/api.php/provide/vod",
@@ -860,9 +900,9 @@
     "priority": 10
   },
   {
-    "id": "www-moduzy-net",
-    "name": "魔都资源",
-    "baseUrl": "https://www.mdzyapi.com/api.php/provide/vod",
+    "id": "moduzy",
+    "name": "魔都影视",
+    "baseUrl": "https://www.moduzy.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -870,12 +910,12 @@
     "priority": 10
   },
   {
-    "id": "shayuapi-com",
-    "name": "鲨鱼资源",
-    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
+    "id": "www-moduzy-net",
+    "name": "魔都资源",
+    "baseUrl": "https://www.mdzyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "premium",
+    "group": "normal",
     "enabled": true,
     "priority": 10
   },
