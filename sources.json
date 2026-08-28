@@ -30,16 +30,6 @@
     "priority": 1
   },
   {
-    "id": "lbapiby-com",
-    "name": "AIvin",
-    "baseUrl": "http://lbapiby.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "ckzy-me",
     "name": "CK-资源",
     "baseUrl": "https://ckzy.me/api.php/provide/vod",
@@ -690,6 +680,16 @@
     "priority": 5
   },
   {
+    "id": "iqiyizyapi-com",
+    "name": "爱奇艺",
+    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "www-jingpinx-com",
     "name": "精品资源",
     "baseUrl": "https://www.jingpinx.com/api.php/provide/vod",
@@ -790,6 +790,16 @@
     "priority": 5
   },
   {
+    "id": "jiangyu",
+    "name": "鲸鱼资源",
+    "baseUrl": "https://jyzyapi.com/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "yilingba2",
     "name": "1080JSON",
     "baseUrl": "https://api.1080zyku.com/inc/apijson.php",
@@ -823,16 +833,6 @@
     "id": "www-ryzyw-com",
     "name": "如意资源",
     "baseUrl": "https://cj.rycjapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "iqiyizyapi-com",
-    "name": "爱奇艺",
-    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -900,16 +900,6 @@
     "priority": 10
   },
   {
-    "id": "moduzy",
-    "name": "魔都影视",
-    "baseUrl": "https://www.moduzy.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
     "id": "www-moduzy-net",
     "name": "魔都资源",
     "baseUrl": "https://www.mdzyapi.com/api.php/provide/vod",
@@ -926,16 +916,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "jiangyu",
-    "name": "鲸鱼资源",
-    "baseUrl": "https://jyzyapi.com/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
     "enabled": true,
     "priority": 10
   },
