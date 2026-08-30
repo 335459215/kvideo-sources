@@ -7,7 +7,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 101,
+    "priority": 102,
     "_comment": "超时/宕机"
   },
   {
@@ -18,7 +18,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 102,
+    "priority": 103,
     "_comment": "HTTP 非200/宕机"
   },
   {
@@ -29,7 +29,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 117,
+    "priority": 118,
     "_comment": "超时/宕机"
   },
   {
@@ -40,7 +40,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 117,
+    "priority": 118,
     "_comment": "超时/宕机"
   },
   {
@@ -51,7 +51,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 117,
+    "priority": 118,
     "_comment": "超时/宕机"
   },
   {
@@ -62,7 +62,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 117,
+    "priority": 118,
     "_comment": "HTTP 非200/宕机"
   },
   {
@@ -73,7 +73,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 117,
+    "priority": 118,
     "_comment": "超时/宕机"
   },
   {
@@ -84,19 +84,8 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 117,
+    "priority": 118,
     "_comment": "超时/宕机"
-  },
-  {
-    "id": "ys01",
-    "name": "影视天堂",
-    "baseUrl": "https://api.ystian.com/api.php/provide/vod",
-    "searchPath": "/provide/vod",
-    "detailPath": "/provide/vod",
-    "group": "normal",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "接口解析错误/非JSON"
   },
   {
     "id": "wangwang",
@@ -106,7 +95,18 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
+    "_comment": "接口解析错误/非JSON"
+  },
+  {
+    "id": "ys01",
+    "name": "影视天堂",
+    "baseUrl": "https://api.ystian.com/api.php/provide/vod",
+    "searchPath": "/provide/vod",
+    "detailPath": "/provide/vod",
+    "group": "normal",
+    "enabled": false,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
   },
   {
@@ -117,7 +117,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
   },
   {
@@ -128,7 +128,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
   },
   {
@@ -139,7 +139,7 @@
     "detailPath": "/provide/vod",
     "group": "documentary",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -150,7 +150,7 @@
     "detailPath": "/provide/vod",
     "group": "cartoon",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -161,7 +161,7 @@
     "detailPath": "/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -172,7 +172,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
   },
   {
@@ -183,7 +183,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "HTTP 非200/宕机"
   },
   {
@@ -194,7 +194,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "HTTP 非200/宕机"
   },
   {
@@ -205,7 +205,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -216,19 +216,8 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
-  },
-  {
-    "id": "pz-v88-qzz-io-101",
-    "name": "百度云zy",
-    "baseUrl": "https://pz.v88.qzz.io/?url=https://api.apibdzy.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "HTTP 非200/宕机"
   },
   {
     "id": "yyzywcj-com",
@@ -238,8 +227,19 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
+  },
+  {
+    "id": "pz-v88-qzz-io-101",
+    "name": "百度云zy",
+    "baseUrl": "https://pz.v88.qzz.io/?url=https://api.apibdzy.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "HTTP 非200/宕机"
   },
   {
     "id": "wolongcc",
@@ -249,7 +249,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -260,40 +260,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
-    "_comment": "超时/宕机"
-  },
-  {
-    "id": "api-apilyzy-com",
-    "name": "老鸭",
-    "baseUrl": "https://api.apilyzy.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "超时/宕机"
-  },
-  {
-    "id": "xx55zyapi-com",
-    "name": "点点娱乐",
-    "baseUrl": "https://xx55zyapi.com/home/cjapi/ascf/mc10/vod/xml",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "超时/宕机"
-  },
-  {
-    "id": "caiji-huakuiapi-com",
-    "name": "花魁",
-    "baseUrl": "https://caiji.huakuiapi.com/inc/apijson_vod.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -304,8 +271,41 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "HTTP 非200/宕机"
+  },
+  {
+    "id": "xx55zyapi-com",
+    "name": "点点娱乐",
+    "baseUrl": "https://xx55zyapi.com/home/cjapi/ascf/mc10/vod/xml",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "api-apilyzy-com",
+    "name": "老鸭",
+    "baseUrl": "https://api.apilyzy.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "caiji-huakuiapi-com",
+    "name": "花魁",
+    "baseUrl": "https://caiji.huakuiapi.com/inc/apijson_vod.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "超时/宕机"
   },
   {
     "id": "kaiyunzy5-com",
@@ -315,18 +315,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
-    "_comment": "超时/宕机"
-  },
-  {
-    "id": "caiyunjidi-com",
-    "name": "菜云",
-    "baseUrl": "https://www.caiyunjidi.com/api/vod.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -337,7 +326,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -348,7 +337,18 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "caiyunjidi-com",
+    "name": "菜云",
+    "baseUrl": "https://www.caiyunjidi.com/api/vod.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": false,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -359,7 +359,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -370,7 +370,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -381,7 +381,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -392,7 +392,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -403,7 +403,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -414,7 +414,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -425,7 +425,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -436,7 +436,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -447,7 +447,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -458,7 +458,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
   },
   {
@@ -469,7 +469,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -480,7 +480,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -491,19 +491,8 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
-  },
-  {
-    "id": "gc-zhuijuba-vip",
-    "name": "极速官采",
-    "baseUrl": "http://gc.zhuijuba.vip/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "HTTP 非200/宕机"
   },
   {
     "id": "baiwan",
@@ -513,63 +502,8 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
-  },
-  {
-    "id": "caiji-semaozy-net",
-    "name": "色猫",
-    "baseUrl": "https://caiji.semaozy.net/inc/apijson_vod.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "列表为空"
-  },
-  {
-    "id": "xrbsp-com",
-    "name": "淫水机",
-    "baseUrl": "https://www.xrbsp.com/api/xml.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "接口解析错误/非JSON"
-  },
-  {
-    "id": "pgxdy-com",
-    "name": "黄AV",
-    "baseUrl": "https://www.pgxdy.com/api/xml.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "接口解析错误/非JSON"
-  },
-  {
-    "id": "gdlsp-com",
-    "name": "香奶儿",
-    "baseUrl": "https://www.gdlsp.com/api/xml.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "接口解析错误/非JSON"
-  },
-  {
-    "id": "kxgav-com",
-    "name": "白嫖",
-    "baseUrl": "https://www.kxgav.com/api/xml.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "接口解析错误/非JSON"
   },
   {
     "id": "sewozyapi-com",
@@ -579,7 +513,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -590,8 +524,41 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "HTTP 非200/宕机"
+  },
+  {
+    "id": "caiji-semaozy-net",
+    "name": "色猫",
+    "baseUrl": "https://caiji.semaozy.net/inc/apijson_vod.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "列表为空"
+  },
+  {
+    "id": "xrbsp-com",
+    "name": "淫水机",
+    "baseUrl": "https://www.xrbsp.com/api/xml.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "接口解析错误/非JSON"
+  },
+  {
+    "id": "gdlsp-com",
+    "name": "香奶儿",
+    "baseUrl": "https://www.gdlsp.com/api/xml.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "接口解析错误/非JSON"
   },
   {
     "id": "52zyapi-com",
@@ -601,8 +568,30 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
+  },
+  {
+    "id": "kxgav-com",
+    "name": "白嫖",
+    "baseUrl": "https://www.kxgav.com/api/xml.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "接口解析错误/非JSON"
+  },
+  {
+    "id": "pgxdy-com",
+    "name": "黄AV",
+    "baseUrl": "https://www.pgxdy.com/api/xml.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "接口解析错误/非JSON"
   },
   {
     "id": "sdszyapi-com",
@@ -612,18 +601,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
-    "_comment": "超时/宕机"
-  },
-  {
-    "id": "legallet-org",
-    "name": "免費AV線上看",
-    "baseUrl": "https://legallet.org/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -634,7 +612,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -645,7 +623,29 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "legallet-org",
+    "name": "免費AV線上看",
+    "baseUrl": "https://legallet.org/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "api-seyavod-com",
+    "name": "色鸭资源",
+    "baseUrl": "https://api.seyavod.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -656,19 +656,8 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
-  },
-  {
-    "id": "api-seyavod-com",
-    "name": "色鸭资源",
-    "baseUrl": "https://api.seyavod.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "超时/宕机"
   },
   {
     "id": "secj8-com",
@@ -678,7 +667,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
   },
   {
@@ -689,30 +678,8 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
-  },
-  {
-    "id": "api-huasezy-xyz",
-    "name": "花色资源",
-    "baseUrl": "https://api.huasezy.xyz/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "超时/宕机"
-  },
-  {
-    "id": "api-sexnguon-com",
-    "name": "色南国资源",
-    "baseUrl": "https://api.sexnguon.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "超时/宕机"
   },
   {
     "id": "hszy-vip",
@@ -722,8 +689,30 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
+  },
+  {
+    "id": "api-sexnguon-com",
+    "name": "色南国资源",
+    "baseUrl": "https://api.sexnguon.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "api-huasezy-xyz",
+    "name": "花色资源",
+    "baseUrl": "https://api.huasezy.xyz/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "超时/宕机"
   },
   {
     "id": "mgav1-cc",
@@ -733,18 +722,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
-    "_comment": "超时/宕机"
-  },
-  {
-    "id": "caoliuzyw-com",
-    "name": "草榴资源",
-    "baseUrl": "https://www.caoliuzyw.com/api.php/provide/vod/at/json",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -755,19 +733,8 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
-  },
-  {
-    "id": "xxhd-online",
-    "name": "羞涩高清",
-    "baseUrl": "https://xxhd.online//api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "HTTP 非200/宕机"
   },
   {
     "id": "afasu-com",
@@ -777,18 +744,18 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
-    "id": "avre00-com",
-    "name": "黄瓜",
-    "baseUrl": "https://www.avre00.com/api.php/Prodao/vod/?ac=list",
+    "id": "caoliuzyw-com",
+    "name": "草榴资源",
+    "baseUrl": "https://www.caoliuzyw.com/api.php/provide/vod/at/json",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -799,8 +766,30 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
+  },
+  {
+    "id": "avre00-com",
+    "name": "黄瓜",
+    "baseUrl": "https://www.avre00.com/api.php/Prodao/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "zmcj88-com",
+    "name": "泡芙资源",
+    "baseUrl": "http://zmcj88.com/api?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "接口解析错误/非JSON"
   },
   {
     "id": "dmmapi-com",
@@ -810,7 +799,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -821,7 +810,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -832,29 +821,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
-    "_comment": "接口解析错误/非JSON"
-  },
-  {
-    "id": "zmcj88-com",
-    "name": "泡芙资源",
-    "baseUrl": "http://zmcj88.com/api?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
-    "_comment": "接口解析错误/非JSON"
-  },
-  {
-    "id": "apihjzy-com",
-    "name": "花椒",
-    "baseUrl": "https://apihjzy.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
   },
   {
@@ -865,7 +832,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -876,8 +843,19 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
+  },
+  {
+    "id": "apihjzy-com",
+    "name": "花椒",
+    "baseUrl": "https://apihjzy.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "接口解析错误/非JSON"
   },
   {
     "id": "cj-apihjzy-com",
@@ -887,7 +865,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -898,7 +876,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "HTTP 非200/宕机"
   },
   {
@@ -909,7 +887,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -920,7 +898,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误/非JSON"
   },
   {
@@ -931,7 +909,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "HTTP 非200/宕机"
   },
   {
@@ -942,7 +920,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -953,7 +931,7 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -964,7 +942,29 @@
     "detailPath": "",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "gc-zhuijuba-vip",
+    "name": "极速官采",
+    "baseUrl": "http://gc.zhuijuba.vip/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": false,
+    "priority": 122,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "xxhd-online",
+    "name": "羞涩高清",
+    "baseUrl": "https://xxhd.online//api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": false,
+    "priority": 122,
     "_comment": "超时/宕机"
   },
   {
@@ -975,7 +975,7 @@
     "detailPath": "",
     "group": "premium",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "超时/宕机"
   }
 ]
