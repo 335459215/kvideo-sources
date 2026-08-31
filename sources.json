@@ -530,16 +530,6 @@
     "priority": 1
   },
   {
-    "id": "ffzy-tv",
-    "name": "非凡影视直连",
-    "baseUrl": "http://ffzy.tv/api.php/provide/vod/",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "feifan",
     "name": "非凡资源",
     "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
@@ -773,16 +763,6 @@
     "id": "jyzyapi-com",
     "name": "金鹰点播",
     "baseUrl": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
-    "id": "feifan1",
-    "name": "非凡线路1",
-    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
