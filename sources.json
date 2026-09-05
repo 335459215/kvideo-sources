@@ -410,16 +410,6 @@
     "priority": 1
   },
   {
-    "id": "www-xxibaozyw-com",
-    "name": "细胞资源",
-    "baseUrl": "https://www.xxibaozyw.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "www-msnii-com",
     "name": "美少女",
     "baseUrl": "https://www.msnii.com/api/json.php",
@@ -543,16 +533,6 @@
     "id": "gdlsp",
     "name": "香奶儿资源站",
     "baseUrl": "https://www.gdlsp.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "xiangjiaozyw-com",
-    "name": "香蕉资源",
-    "baseUrl": "https://www.xiangjiaozyw.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -893,6 +873,16 @@
     "id": "caiji-moduapi-cc",
     "name": "魔都动漫",
     "baseUrl": "https://caiji.moduapi.cc/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "moduzy",
+    "name": "魔都影视",
+    "baseUrl": "https://www.moduzy.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
