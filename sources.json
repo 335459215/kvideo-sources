@@ -660,6 +660,16 @@
     "priority": 5
   },
   {
+    "id": "dyttzyapi-com",
+    "name": "电影天堂",
+    "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "www-jingpinx-com",
     "name": "精品资源",
     "baseUrl": "https://www.jingpinx.com/api.php/provide/vod",
@@ -750,6 +760,16 @@
     "priority": 5
   },
   {
+    "id": "jinying",
+    "name": "金鹰点播",
+    "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "ffzy-tv",
     "name": "非凡影视直连",
     "baseUrl": "http://ffzy.tv/api.php/provide/vod/",
@@ -823,26 +843,6 @@
     "id": "aidan",
     "name": "爱蛋资源",
     "baseUrl": "https://lovedan.net/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "dyttzyapi-com",
-    "name": "电影天堂",
-    "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "jinying",
-    "name": "金鹰点播",
-    "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
