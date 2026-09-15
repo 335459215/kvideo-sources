@@ -350,6 +350,16 @@
     "priority": 1
   },
   {
+    "id": "apiyutu-com",
+    "name": "玉兔资源",
+    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "yutuzy3-com",
     "name": "玉兔资源",
     "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
@@ -360,12 +370,12 @@
     "priority": 1
   },
   {
-    "id": "apiyutu-com",
-    "name": "玉兔资源",
-    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
+    "id": "dyttzyapi-com",
+    "name": "电影天堂",
+    "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
-    "group": "premium",
+    "group": "normal",
     "enabled": true,
     "priority": 1
   },
@@ -710,16 +720,6 @@
     "priority": 5
   },
   {
-    "id": "dyttzyapi-com",
-    "name": "电影天堂",
-    "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "www-hongniuzy-com",
     "name": "红牛资源",
     "baseUrl": "https://www.hongniuzy2.com/api.php/provide/vod",
@@ -840,6 +840,16 @@
     "priority": 5
   },
   {
+    "id": "caiji-moduapi-cc",
+    "name": "魔都动漫",
+    "baseUrl": "https://caiji.moduapi.cc/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "www-moduzy-net",
     "name": "魔都资源",
     "baseUrl": "https://www.mdzyapi.com/api.php/provide/vod",
@@ -906,16 +916,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "caiji-moduapi-cc",
-    "name": "魔都动漫",
-    "baseUrl": "https://caiji.moduapi.cc/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
     "enabled": true,
     "priority": 10
   },
