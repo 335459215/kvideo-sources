@@ -1,5 +1,15 @@
 [
   {
+    "id": "yilingba2",
+    "name": "1080JSON",
+    "baseUrl": "https://api.1080zyku.com/inc/apijson.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "155api-com",
     "name": "155",
     "baseUrl": "https://155api.com/api.php/provide/vod/?ac=list",
@@ -90,6 +100,26 @@
     "priority": 1
   },
   {
+    "id": "1080zyk4-com",
+    "name": "优质资源",
+    "baseUrl": "https://api.yzzy-api.com/inc/apijson.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
+    "id": "youku",
+    "name": "优酷资源",
+    "baseUrl": "https://api.ukuapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "zuidazy-co",
     "name": "最大点播",
     "baseUrl": "https://zuidazy.me/api.php/provide/vod",
@@ -146,6 +176,16 @@
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
+    "id": "www-ryzyw-com",
+    "name": "如意资源",
+    "baseUrl": "https://cj.rycjapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
     "enabled": true,
     "priority": 1
   },
@@ -560,12 +600,42 @@
     "priority": 1
   },
   {
+    "id": "ffzyapi-com",
+    "name": "非凡资源",
+    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
+    "id": "feifancj2",
+    "name": "非凡采集HTTPS",
+    "baseUrl": "https://cj.ffzyapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "gdlsp",
     "name": "香奶儿资源站",
     "baseUrl": "https://www.gdlsp.com/api/json.php",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
+    "id": "mahua-1080zyku",
+    "name": "麻花资源",
+    "baseUrl": "https://api.1080zyku.com/inc/api_mac10.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
     "enabled": true,
     "priority": 1
   },
@@ -620,16 +690,6 @@
     "priority": 1
   },
   {
-    "id": "yilingba2",
-    "name": "1080JSON",
-    "baseUrl": "https://api.1080zyku.com/inc/apijson.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "ikunzy-com",
     "name": "iKun资源",
     "baseUrl": "https://ikunzyapi.com/api.php/provide/vod",
@@ -650,26 +710,6 @@
     "priority": 5
   },
   {
-    "id": "1080zyk4-com",
-    "name": "优质资源",
-    "baseUrl": "https://api.yzzy-api.com/inc/apijson.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
-    "id": "youku",
-    "name": "优酷资源",
-    "baseUrl": "https://api.ukuapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "api-guangsuapi-com",
     "name": "光速资源",
     "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
@@ -686,16 +726,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
-    "id": "www-ryzyw-com",
-    "name": "如意资源",
-    "baseUrl": "https://cj.rycjapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
     "enabled": true,
     "priority": 5
   },
@@ -820,26 +850,6 @@
     "priority": 5
   },
   {
-    "id": "ffzyapi-com",
-    "name": "非凡资源",
-    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
-    "id": "feifancj2",
-    "name": "非凡采集HTTPS",
-    "baseUrl": "https://cj.ffzyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "caiji-moduapi-cc",
     "name": "魔都动漫",
     "baseUrl": "https://caiji.moduapi.cc/api.php/provide/vod",
@@ -863,16 +873,6 @@
     "id": "jiangyu",
     "name": "鲸鱼资源",
     "baseUrl": "https://jyzyapi.com/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
-    "id": "mahua-1080zyku",
-    "name": "麻花资源",
-    "baseUrl": "https://api.1080zyku.com/inc/api_mac10.php",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
