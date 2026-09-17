@@ -910,6 +910,16 @@
     "priority": 10
   },
   {
+    "id": "piaoling",
+    "name": "飘零资源",
+    "baseUrl": "https://p2100.net/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
     "id": "xiangjiaozyw-com",
     "name": "香蕉资源",
     "baseUrl": "https://www.xiangjiaozyw.com/api.php/provide/vod",
