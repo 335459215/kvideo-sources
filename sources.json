@@ -390,9 +390,9 @@
     "priority": 1
   },
   {
-    "id": "apiyutu-com",
+    "id": "yutuzy3-com",
     "name": "玉兔资源",
-    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
+    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -400,9 +400,9 @@
     "priority": 1
   },
   {
-    "id": "yutuzy3-com",
+    "id": "apiyutu-com",
     "name": "玉兔资源",
-    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
+    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -670,16 +670,6 @@
     "priority": 1
   },
   {
-    "id": "hsckzy-xyz",
-    "name": "黄色仓库",
-    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "heiliaozy-cc",
     "name": "黑料资源",
     "baseUrl": "https://www.heiliaozyapi.com/api.php/provide/vod",
@@ -726,6 +716,16 @@
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "bubugao",
+    "name": "步步高资源",
+    "baseUrl": "https://api.yparse.com/api/json",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
     "enabled": true,
     "priority": 5
   },
