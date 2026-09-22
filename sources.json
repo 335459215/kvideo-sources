@@ -590,9 +590,9 @@
     "priority": 1
   },
   {
-    "id": "ffzyapi-com",
+    "id": "feifan",
     "name": "非凡资源",
-    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
+    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -600,9 +600,9 @@
     "priority": 1
   },
   {
-    "id": "feifan",
+    "id": "ffzyapi-com",
     "name": "非凡资源",
-    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
+    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -626,6 +626,16 @@
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
+    "id": "www-moduzy-net",
+    "name": "魔都资源",
+    "baseUrl": "https://www.mdzyapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
     "enabled": true,
     "priority": 1
   },
@@ -678,6 +688,16 @@
     "group": "premium",
     "enabled": true,
     "priority": 1
+  },
+  {
+    "id": "155api-com",
+    "name": "155",
+    "baseUrl": "https://155api.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 5
   },
   {
     "id": "ikunzy-com",
@@ -780,9 +800,9 @@
     "priority": 5
   },
   {
-    "id": "caiji-dbzy5-com",
+    "id": "dbzy",
     "name": "豆瓣资源",
-    "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
+    "baseUrl": "https://dbzy.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -790,9 +810,9 @@
     "priority": 5
   },
   {
-    "id": "dbzy",
+    "id": "caiji-dbzy5-com",
     "name": "豆瓣资源",
-    "baseUrl": "https://dbzy.tv/api.php/provide/vod",
+    "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -853,16 +873,6 @@
     "id": "caiji-moduapi-cc",
     "name": "魔都动漫",
     "baseUrl": "https://caiji.moduapi.cc/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
-    "id": "www-moduzy-net",
-    "name": "魔都资源",
-    "baseUrl": "https://www.mdzyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
