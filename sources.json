@@ -410,36 +410,6 @@
     "priority": 1
   },
   {
-    "id": "yutu",
-    "name": "玉兔",
-    "baseUrl": "https://yutuzy10.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "yutuzy3-com",
-    "name": "玉兔资源",
-    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "apiyutu-com",
-    "name": "玉兔资源",
-    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "dyttzyapi-com",
     "name": "电影天堂",
     "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
@@ -540,16 +510,6 @@
     "priority": 1
   },
   {
-    "id": "apilsbzy1-com",
-    "name": "老色逼",
-    "baseUrl": "https://apilsbzy1.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "maotai",
     "name": "茅台资源",
     "baseUrl": "https://caiji.maotaizy.cc/api.php/provide/vod",
@@ -606,6 +566,16 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
+    "id": "vnzyz-com",
+    "name": "越南资源",
+    "baseUrl": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
     "enabled": true,
     "priority": 1
   },
@@ -860,16 +830,6 @@
     "priority": 5
   },
   {
-    "id": "vnzyz-com",
-    "name": "越南资源",
-    "baseUrl": "https://vnzyz.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "www-subozy-com",
     "name": "速播资源",
     "baseUrl": "https://subocaiji.com/api.php/provide/vod",
@@ -898,16 +858,6 @@
     "group": "normal",
     "enabled": true,
     "priority": 5
-  },
-  {
-    "id": "shayuapi-com",
-    "name": "鲨鱼资源",
-    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 10
   },
   {
     "id": "hsckzy-xyz",
