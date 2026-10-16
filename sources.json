@@ -380,16 +380,6 @@
     "priority": 1
   },
   {
-    "id": "iqiyizyapi-com",
-    "name": "爱奇艺",
-    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "niuniu",
     "name": "牛牛点播",
     "baseUrl": "https://api.niuniuzy.me/api.php/provide/vod",
@@ -898,16 +888,6 @@
     "group": "normal",
     "enabled": true,
     "priority": 5
-  },
-  {
-    "id": "shayuapi-com",
-    "name": "鲨鱼资源",
-    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 10
   },
   {
     "id": "hsckzy-xyz",
