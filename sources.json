@@ -800,6 +800,16 @@
     "priority": 5
   },
   {
+    "id": "iqiyizyapi-com",
+    "name": "爱奇艺",
+    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "aidan",
     "name": "爱蛋资源",
     "baseUrl": "https://lovedan.net/api.php/provide/vod",
