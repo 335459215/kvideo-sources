@@ -10,6 +10,16 @@
     "priority": 1
   },
   {
+    "id": "155api-com",
+    "name": "155",
+    "baseUrl": "https://155api.com/api.php/provide/vod/?ac=list",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "360zyzz-com",
     "name": "360资源",
     "baseUrl": "https://360zyzz.com/api.php/provide/vod",
@@ -650,9 +660,9 @@
     "priority": 1
   },
   {
-    "id": "feifan",
+    "id": "ffzyapi-com",
     "name": "非凡资源",
-    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
+    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -660,9 +670,9 @@
     "priority": 1
   },
   {
-    "id": "ffzyapi-com",
+    "id": "feifan",
     "name": "非凡资源",
-    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
+    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -780,16 +790,6 @@
     "priority": 1
   },
   {
-    "id": "155api-com",
-    "name": "155",
-    "baseUrl": "https://155api.com/api.php/provide/vod/?ac=list",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "souavzyw-com",
     "name": "souavZY",
     "baseUrl": "https://api.souavzyw.net/api.php/provide/vod",
@@ -840,9 +840,9 @@
     "priority": 5
   },
   {
-    "id": "apiyutu-com",
+    "id": "yutuzy3-com",
     "name": "玉兔资源",
-    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
+    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -850,9 +850,9 @@
     "priority": 5
   },
   {
-    "id": "yutuzy3-com",
+    "id": "apiyutu-com",
     "name": "玉兔资源",
-    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
+    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -878,6 +878,36 @@
     "group": "normal",
     "enabled": true,
     "priority": 5
+  },
+  {
+    "id": "ffzy-tv",
+    "name": "非凡影视直连",
+    "baseUrl": "http://ffzy.tv/api.php/provide/vod/",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "feifan1",
+    "name": "非凡线路1",
+    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "shayuapi-com",
+    "name": "鲨鱼资源",
+    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 10
   },
   {
     "id": "hsckzy-xyz",
