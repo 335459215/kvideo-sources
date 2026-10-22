@@ -660,9 +660,9 @@
     "priority": 1
   },
   {
-    "id": "ffzyapi-com",
+    "id": "feifan",
     "name": "非凡资源",
-    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
+    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -670,9 +670,9 @@
     "priority": 1
   },
   {
-    "id": "feifan",
+    "id": "ffzyapi-com",
     "name": "非凡资源",
-    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
+    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
