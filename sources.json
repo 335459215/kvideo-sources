@@ -400,6 +400,16 @@
     "priority": 1
   },
   {
+    "id": "aidan",
+    "name": "爱蛋资源",
+    "baseUrl": "https://lovedan.net/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "niuniu",
     "name": "牛牛点播",
     "baseUrl": "https://api.niuniuzy.me/api.php/provide/vod",
@@ -530,9 +540,9 @@
     "priority": 1
   },
   {
-    "id": "caiji-dbzy5-com",
+    "id": "dbzy",
     "name": "豆瓣资源",
-    "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
+    "baseUrl": "https://dbzy.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -540,9 +550,9 @@
     "priority": 1
   },
   {
-    "id": "dbzy",
+    "id": "caiji-dbzy5-com",
     "name": "豆瓣资源",
-    "baseUrl": "https://dbzy.tv/api.php/provide/vod",
+    "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -810,16 +820,6 @@
     "priority": 5
   },
   {
-    "id": "aidan",
-    "name": "爱蛋资源",
-    "baseUrl": "https://lovedan.net/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "www-maoyanzy-com",
     "name": "猫眼资源",
     "baseUrl": "https://api.maoyanapi.top/api.php/provide/vod",
@@ -873,6 +873,26 @@
     "id": "www-subozy-com",
     "name": "速播资源",
     "baseUrl": "https://subocaiji.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "ffzy-tv",
+    "name": "非凡影视直连",
+    "baseUrl": "http://ffzy.tv/api.php/provide/vod/",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "feifan1",
+    "name": "非凡线路1",
+    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
