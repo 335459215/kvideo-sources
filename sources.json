@@ -80,6 +80,16 @@
     "priority": 1
   },
   {
+    "id": "souavzyw-com",
+    "name": "souavZY",
+    "baseUrl": "https://api.souavzyw.net/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "api-ukuapi88-com",
     "name": "U酷影视",
     "baseUrl": "https://api.ukuapi88.com/api.php/provide/vod",
@@ -798,16 +808,6 @@
     "group": "premium",
     "enabled": true,
     "priority": 1
-  },
-  {
-    "id": "souavzyw-com",
-    "name": "souavZY",
-    "baseUrl": "https://api.souavzyw.net/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
   },
   {
     "id": "iqiyizyapi-com",
