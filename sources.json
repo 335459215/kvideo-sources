@@ -620,6 +620,16 @@
     "priority": 1
   },
   {
+    "id": "www-subozy-com",
+    "name": "速播资源",
+    "baseUrl": "https://subocaiji.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "lzizy-net",
     "name": "量子影视",
     "baseUrl": "https://cj.lziapi.com/api.php/provide/vod",
@@ -670,9 +680,9 @@
     "priority": 1
   },
   {
-    "id": "ffzyapi-com",
+    "id": "feifan",
     "name": "非凡资源",
-    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
+    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -680,9 +690,9 @@
     "priority": 1
   },
   {
-    "id": "feifan",
+    "id": "ffzyapi-com",
     "name": "非凡资源",
-    "baseUrl": "http://ffzy5.tv/api.php/provide/vod",
+    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -830,9 +840,9 @@
     "priority": 5
   },
   {
-    "id": "apiyutu-com",
+    "id": "yutuzy3-com",
     "name": "玉兔资源",
-    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
+    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -840,9 +850,9 @@
     "priority": 5
   },
   {
-    "id": "yutuzy3-com",
+    "id": "apiyutu-com",
     "name": "玉兔资源",
-    "baseUrl": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
+    "baseUrl": "https://apiyutu.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -856,16 +866,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
-    "id": "www-subozy-com",
-    "name": "速播资源",
-    "baseUrl": "https://subocaiji.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
     "enabled": true,
     "priority": 5
   },
