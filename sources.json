@@ -530,16 +530,6 @@
     "priority": 1
   },
   {
-    "id": "maotai",
-    "name": "茅台资源",
-    "baseUrl": "https://caiji.maotaizy.cc/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "www-huyaapi-com",
     "name": "虎牙资源",
     "baseUrl": "https://www.huyaapi.com/api.php/provide/vod",
@@ -893,16 +883,6 @@
     "id": "shayuapi-com",
     "name": "鲨鱼资源",
     "baseUrl": "https://shayuapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "hsckzy-xyz",
-    "name": "黄色仓库",
-    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
