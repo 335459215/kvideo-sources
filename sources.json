@@ -888,5 +888,15 @@
     "group": "premium",
     "enabled": true,
     "priority": 10
+  },
+  {
+    "id": "hsckzy-xyz",
+    "name": "黄色仓库",
+    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 10
   }
 ]
