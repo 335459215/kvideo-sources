@@ -870,6 +870,16 @@
     "priority": 5
   },
   {
+    "id": "shayuapi-com",
+    "name": "鲨鱼资源",
+    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "baofeng2",
     "name": "暴风APP",
     "baseUrl": "https://app.bfzyapi.com/api.php/provide/vod",
@@ -886,16 +896,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "shayuapi-com",
-    "name": "鲨鱼资源",
-    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
     "enabled": true,
     "priority": 10
   },
