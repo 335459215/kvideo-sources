@@ -540,16 +540,6 @@
     "priority": 1
   },
   {
-    "id": "www-huyaapi-com",
-    "name": "虎牙资源",
-    "baseUrl": "https://www.huyaapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "doudouzy-com",
     "name": "豆豆资源",
     "baseUrl": "https://api.douapi.cc/api.php/provide/vod",
@@ -643,16 +633,6 @@
     "id": "jyzyapi-com",
     "name": "金鹰点播",
     "baseUrl": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "jinying",
-    "name": "金鹰点播",
-    "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
@@ -873,6 +853,26 @@
     "id": "maotai",
     "name": "茅台资源",
     "baseUrl": "https://caiji.maotaizy.cc/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "ffzy-tv",
+    "name": "非凡影视直连",
+    "baseUrl": "http://ffzy.tv/api.php/provide/vod/",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "feifan1",
+    "name": "非凡线路1",
+    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
