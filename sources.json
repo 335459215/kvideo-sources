@@ -690,6 +690,16 @@
     "priority": 1
   },
   {
+    "id": "shayuapi-com",
+    "name": "鲨鱼资源",
+    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "jiangyu",
     "name": "鲸鱼资源",
     "baseUrl": "https://jyzyapi.com/provide/vod",
@@ -820,6 +830,26 @@
     "priority": 5
   },
   {
+    "id": "ffzy-tv",
+    "name": "非凡影视直连",
+    "baseUrl": "http://ffzy.tv/api.php/provide/vod/",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "feifan1",
+    "name": "非凡线路1",
+    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "caiji-moduapi-cc",
     "name": "魔都动漫",
     "baseUrl": "https://caiji.moduapi.cc/api.php/provide/vod",
@@ -850,16 +880,6 @@
     "priority": 5
   },
   {
-    "id": "shayuapi-com",
-    "name": "鲨鱼资源",
-    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "baofeng2",
     "name": "暴风APP",
     "baseUrl": "https://app.bfzyapi.com/api.php/provide/vod",
@@ -873,26 +893,6 @@
     "id": "maotai",
     "name": "茅台资源",
     "baseUrl": "https://caiji.maotaizy.cc/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "ffzy-tv",
-    "name": "非凡影视直连",
-    "baseUrl": "http://ffzy.tv/api.php/provide/vod/",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
-    "id": "feifan1",
-    "name": "非凡线路1",
-    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
