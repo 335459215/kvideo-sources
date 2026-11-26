@@ -350,16 +350,6 @@
     "priority": 1
   },
   {
-    "id": "xrbsp",
-    "name": "淫水机资源站",
-    "baseUrl": "https://www.xrbsp.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "didizy-com",
     "name": "滴滴资源",
     "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
@@ -450,16 +440,6 @@
     "priority": 1
   },
   {
-    "id": "www-kxgav-com",
-    "name": "白嫖资源",
-    "baseUrl": "https://www.kxgav.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "baiduyun",
     "name": "百度云资源",
     "baseUrl": "https://api.apibdzy.com/api.php/provide/vod",
@@ -516,16 +496,6 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "www-msnii-com",
-    "name": "美少女",
-    "baseUrl": "https://www.msnii.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
     "enabled": true,
     "priority": 1
   },
@@ -680,16 +650,6 @@
     "priority": 1
   },
   {
-    "id": "gdlsp",
-    "name": "香奶儿资源站",
-    "baseUrl": "https://www.gdlsp.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "shayuapi-com",
     "name": "鲨鱼资源",
     "baseUrl": "https://shayuapi.com/api.php/provide/vod",
@@ -723,26 +683,6 @@
     "id": "91md-me",
     "name": "麻豆视频",
     "baseUrl": "https://91md.me/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "www-pgxdy-com",
-    "name": "黄AVZY",
-    "baseUrl": "https://www.pgxdy.com/api/json.php",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "hsck",
-    "name": "黄色仓库",
-    "baseUrl": "https://hsckzy.vip/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "premium",
@@ -896,6 +836,16 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "hsckzy-xyz",
+    "name": "黄色仓库",
+    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
     "enabled": true,
     "priority": 10
   }
