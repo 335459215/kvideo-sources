@@ -360,16 +360,6 @@
     "priority": 1
   },
   {
-    "id": "aidan",
-    "name": "爱蛋资源",
-    "baseUrl": "https://lovedan.net/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "niuniu",
     "name": "牛牛点播",
     "baseUrl": "https://api.niuniuzy.me/api.php/provide/vod",
@@ -740,12 +730,42 @@
     "priority": 5
   },
   {
+    "id": "xrbsp",
+    "name": "淫水机资源站",
+    "baseUrl": "https://www.xrbsp.com/api/json.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "iqiyizyapi-com",
     "name": "爱奇艺",
     "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "www-kxgav-com",
+    "name": "白嫖资源",
+    "baseUrl": "https://www.kxgav.com/api/json.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "www-msnii-com",
+    "name": "美少女",
+    "baseUrl": "https://www.msnii.com/api/json.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
     "enabled": true,
     "priority": 5
   },
@@ -770,22 +790,12 @@
     "priority": 5
   },
   {
-    "id": "ffzy-tv",
-    "name": "非凡影视直连",
-    "baseUrl": "http://ffzy.tv/api.php/provide/vod/",
+    "id": "gdlsp",
+    "name": "香奶儿资源站",
+    "baseUrl": "https://www.gdlsp.com/api/json.php",
     "searchPath": "",
     "detailPath": "",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
-    "id": "feifan1",
-    "name": "非凡线路1",
-    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
-    "searchPath": "",
-    "detailPath": "",
-    "group": "normal",
+    "group": "premium",
     "enabled": true,
     "priority": 5
   },
@@ -816,6 +826,16 @@
     "searchPath": "",
     "detailPath": "",
     "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "www-pgxdy-com",
+    "name": "黄AVZY",
+    "baseUrl": "https://www.pgxdy.com/api/json.php",
+    "searchPath": "",
+    "detailPath": "",
+    "group": "premium",
     "enabled": true,
     "priority": 5
   },
